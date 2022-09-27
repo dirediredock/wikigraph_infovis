@@ -1,4 +1,4 @@
-# wikigraph_vis
+# wikigraph_infovis
 
 A project about a network infographic of programming languages (PLs) - an all-at-once visualization of how PLs influence each other and develop over time.
 
@@ -10,8 +10,8 @@ First download the repo through CLI and use `checkout -b` to create and name a n
 
 ```
 cd src
-gh repo clone dirediredock/wikigraph_vis
-cd wikigraph_infobox
+gh repo clone dirediredock/wikigraph_infovis
+cd wikigraph
 git status
 git checkout -b desktop_edits
 git status
