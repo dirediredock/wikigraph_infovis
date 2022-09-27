@@ -8,8 +8,8 @@ First download the repo through CLI and use `checkout -b` to create and name a n
 
 ```
 cd src
-gh repo clone LucentBio/Analysis_Pipeline
-cd Analysis_Pipeline
+gh repo clone dirediredock/wikiscrape_grapherator
+cd wikiscrape_vis
 git status
 git checkout -b desktop_edits
 git status
