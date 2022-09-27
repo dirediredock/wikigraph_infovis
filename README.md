@@ -1,8 +1,8 @@
 # wikigraph_vis
 
-This project is about creating a network infographic of programming languages, a visualization of how lanaguages influence each other and develop over time.
+A project about a network infographic of programming languages (PLs) - an all-at-once visualization of how PLs influence each other and develop over time.
 
-The data comes from Wikipedia, specifically from pages that have an "infobox" HTML tag, which has links that can be recursively scraped to construct an adjacency matrix, which in turn translates into a network graph - with unqiue programming languages as nodes and the relationships between them as the graph's directed links.
+The data comes from Wikipedia, specifically from PL pages that have an "infobox" HTML tag, which has links that can be recursively scraped to construct an adjacency matrix, which in turn translates into a network graph. Each unqiue PL is a node, and relationships between nodes is determined by how PLs relate to one another. Supplementary data can include year of introduction, programming paradigm, and typing discipline.
 
 ### Git Setup Cheatsheet
 
