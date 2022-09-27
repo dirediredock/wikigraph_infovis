@@ -1,4 +1,4 @@
-# wikiscrape_grapherator
+# wikigraph_vis
 
 This project is about creating a network infographic of programming languages, a visualization of how lanaguages influence each other and develop over time.
 
@@ -10,8 +10,8 @@ First download the repo through CLI and use `checkout -b` to create and name a n
 
 ```
 cd src
-gh repo clone dirediredock/wikiscrape_grapherator
-cd wikiscrape_vis
+gh repo clone dirediredock/wikigraph_vis
+cd wikigraph_infobox
 git status
 git checkout -b desktop_edits
 git status
