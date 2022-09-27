@@ -2,7 +2,7 @@
 
 A network infographic of programming languages (PLs) - this project explores how to create an all-at-once visualization of PLs, how they influence each other, and how they develop over time.
 
-The data comes from Wikipedia, specifically from PL pages that have an "infobox" HTML tag, which has links that can be recursively scraped to construct an adjacency matrix, which in turn translates into a network graph. Each unqiue PL is a node, and relationships between nodes is determined by how PLs relate to one another. Supplementary data can include year of introduction, programming paradigm, and typing discipline.
+The data comes from Wikipedia, specifically from PL pages (.en) that have an "infobox" HTML tag, which has href links that can be recursively Python scraped to construct an adjacency matrix, which in turn translates into a graph. In this network graph ach unqiue PL is a node, and relationships between nodes is determined by how PLs relate to one another. Supplementary data can include year of introduction, programming paradigm, and typing discipline.
 
 ### Git Setup Cheatsheet
 
