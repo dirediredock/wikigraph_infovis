@@ -1,6 +1,8 @@
 # wikiscrape_grapherator
 
-This project is aobut recursively extracting data from Wikipedia "infoboxes" and use that to build network graph visualizations.
+This project is about creating a network infographic of programming languages, a visualization of how lanaguages influence each other and develop over time.
+
+The data comes from Wikipedia, specifically from pages that have an "infobox" HTML tag, which has links that can be recursively scraped to construct an adjacency matrix, which in turn translates into a network graph - with unqiue programming languages as nodes and the relationships between them as the graph's directed links.
 
 ### Git Setup Cheatsheet
 
