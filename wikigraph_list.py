@@ -8,6 +8,7 @@ rest_API = "https://en.wikipedia.org/api/rest_v1/page/html/"
 list_wikiscrape_href = []
 list_empty_href = []
 list_error_href = []
+list_link_count = []
 
 
 def wikiscrape_infobox(page_href):
@@ -30,8 +31,8 @@ def wikiscrape_infobox(page_href):
                 data_strings[section] += infobox_rows[row_index + 1]
                 section += 1
             row_index += 1
+
         data_influenced_by = BeautifulSoup(data_strings[0], "html.parser")
-        data_influenced = BeautifulSoup(data_strings[1], "html.parser")
         list_influenced_by = [
             str(a["href"])[2:]
             for a in data_influenced_by.find_all(
@@ -39,6 +40,7 @@ def wikiscrape_infobox(page_href):
                 {"rel": True},
             )
         ]
+        data_influenced = BeautifulSoup(data_strings[1], "html.parser")
         list_influenced = [
             str(a["href"])[2:]
             for a in data_influenced.find_all(
@@ -50,32 +52,28 @@ def wikiscrape_infobox(page_href):
         list_href = sorted(set(list_influenced_by + list_influenced))
 
         if len(list_href) == 0:
-            print(
-                "                                                    EMPTY ["
-                + page_href
-                + "]"
-            )
+            print()
+            print("EMPTY [" + page_href + "]")
             if page_href not in list_empty_href:
                 list_empty_href.append(page_href)
+
+        if page_href in list_wikiscrape_href:
+            print()
+            print(page_href)
+            print(list_influenced_by)
+            print(list_influenced)
 
         for href in list_href:
             if href not in list_wikiscrape_href:
                 list_wikiscrape_href.append(href)
-                print(href)
+                list_link_count.append(len(list_href))
                 wikiscrape_infobox(href)
 
     except Exception as error_message:
-
         list_error_href.append(page_href)
-        print(
-            "                                                    FAILED ["
-            + page_href
-            + "]"
-        )
-        print(
-            "                                                    ERROR: "
-            + str(error_message)
-        )
+        print()
+        print("FAILED [" + page_href + "]")
+        print("ERROR: " + str(error_message))
 
 
 if __name__ == "__main__":
@@ -96,9 +94,15 @@ print("ERROR", len(list_error_href))
 print()
 print(sorted(list_empty_href))
 print()
-print("ENDPOINT NODES", len(list_empty_href))
+print("LEAF NODES", len(list_empty_href))
 print()
 print(sorted(final_list))
 print()
 print("NETWORK NODES", len(final_list))
+print()
+print(list_link_count)
+print()
+print("NETWORK LINKS", sum(list_link_count))
+print()
+print("LEAF + NETWORK LINKS", sum(list_link_count) + len(list_link_count))
 print()
