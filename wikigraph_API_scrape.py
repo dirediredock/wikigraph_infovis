@@ -68,9 +68,3 @@ print(sorted(set(list_influenced_by + list_influenced)))
 print()
 
 ###############################################################################
-
-test_1 = ["A", "B", "C", "D", "E", "F", "G", "H", "I"]
-test_2 = ["A", "B", "C"]
-test_3 = ["G", "H", "I"]
-
-print(test_2 + test_3)
