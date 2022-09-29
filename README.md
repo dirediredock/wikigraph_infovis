@@ -27,4 +27,4 @@ git checkout main
 ```
 <img src="figures/wikiscrape_results_1.png" width="100%">
 <img src="figures/wikiscrape_results_2.png" width="100%">
-<img src="figures/wikiscrape_results_3.png" width="100%">
+<img src="figures/wikiscrape_results_4.png" width="100%">
