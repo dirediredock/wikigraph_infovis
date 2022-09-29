@@ -25,3 +25,4 @@ git push --set-upstream origin desktop_edits
 git fetch origin main:main
 git checkout main
 ```
+<img src="figures/wikiscrape.png" width="100%">
