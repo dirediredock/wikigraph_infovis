@@ -28,3 +28,11 @@ git checkout main
 <img src="figures/wikiscrape_results_1.png" width="100%">
 <img src="figures/wikiscrape_results_2.png" width="100%">
 <img src="figures/wikiscrape_results.png" width="100%">
+
+## Data Exploration
+
+- Data cleaning: removing `href` vestigial disambiguator string and duplicates, create two-column matrix of node-to-edge unique keys
+- Metadata: isolate key and year in JSON dictionary
+- Scatterplot of nodes, time vs incoming `influenced_by` links, probably positive Pearson correlation
+- Scatterplot of nodes, time vs outgoing `influenced` links, probably negative Pearson correlation
+- Adjacency matrix of network
