@@ -1,23 +1,23 @@
-# by Matias I. Bofarull Oddo - 2022.09.22
+# by Matias I. Bofarull Oddo - 2022.09.26
 
 import os
+import re
 import requests
 from bs4 import BeautifulSoup
 
+year_regex = re.compile(r"[1|2]\d{3}")
+
 rest_API = "https://en.wikipedia.org/api/rest_v1/page/html/"
 
-list_wikiscrape_href = []
-list_empty_href = []
-list_error_href = []
-list_link_count = []
+dict_wikigraph = {}
 
 
 def wikiscrape_infobox(page_href):
 
     try:
 
-        if page_href not in list_wikiscrape_href:
-            list_wikiscrape_href.append(page_href)
+        if page_href not in dict_wikigraph:
+            dict_wikigraph[page_href] = {}
 
         sesh = requests.Session()
         page = sesh.get(rest_API + page_href, timeout=10)
@@ -40,17 +40,29 @@ def wikiscrape_infobox(page_href):
                 os.remove(file.name)
 
         infobox_rows = [row.prettify() for row in soup.find_all("tr")]
-        section = 0
+
         row_index = 0
-        data_strings = ["", ""]
+        data_strings = {
+            "influenced_by": "",
+            "influenced": "",
+            "first_appeared": "",
+        }
+
         for row in infobox_rows:
-            if "Influenced" in row:
-                data_strings[section] += infobox_rows[row_index]
-                data_strings[section] += infobox_rows[row_index + 1]
-                section += 1
+            if "Influenced by" in row:
+                data_strings["influenced_by"] += infobox_rows[row_index]
+                data_strings["influenced_by"] += infobox_rows[row_index + 1]
+            elif "Influenced" in row:
+                data_strings["influenced"] += infobox_rows[row_index]
+                data_strings["influenced"] += infobox_rows[row_index + 1]
+            elif "appeared" in row:
+                data_strings["first_appeared"] += row
             row_index += 1
 
-        data_influenced_by = BeautifulSoup(data_strings[0], "html.parser")
+        data_influenced_by = BeautifulSoup(
+            data_strings["influenced_by"],
+            "html.parser",
+        )
         list_influenced_by = [
             str(a["href"])[2:]
             for a in data_influenced_by.find_all(
@@ -58,7 +70,11 @@ def wikiscrape_infobox(page_href):
                 {"rel": True},
             )
         ]
-        data_influenced = BeautifulSoup(data_strings[1], "html.parser")
+
+        data_influenced = BeautifulSoup(
+            data_strings["influenced"],
+            "html.parser",
+        )
         list_influenced = [
             str(a["href"])[2:]
             for a in data_influenced.find_all(
@@ -67,28 +83,35 @@ def wikiscrape_infobox(page_href):
             )
         ]
 
+        data_first_appeared = BeautifulSoup(
+            data_strings["first_appeared"],
+            "html.parser",
+        )
+        first_appeared = []
+        for s in data_first_appeared.find_all("td", class_="infobox-data"):
+            infobox_string = s.get_text()
+            regex_match = year_regex.search(infobox_string)
+            if regex_match:
+                first_appeared.append(int(regex_match.group(0)))
+
         list_href = sorted(set(list_influenced_by + list_influenced))
 
-        if len(list_href) == 0:
-            print()
-            print("EMPTY [" + page_href + "]", end="")
-            if page_href not in list_empty_href:
-                list_empty_href.append(page_href)
-
-        if page_href in list_wikiscrape_href:
+        if page_href in dict_wikigraph:
+            dict_wikigraph[page_href]["first_appeared"] = first_appeared
+            dict_wikigraph[page_href]["influenced_by"] = list_influenced_by
+            dict_wikigraph[page_href]["influenced"] = list_influenced
             print()
             print(page_href)
+            print(first_appeared)
             print(list_influenced_by)
             print(list_influenced)
+            print("Links:", len(list_href))
 
         for href in list_href:
-            if href not in list_wikiscrape_href:
-                list_wikiscrape_href.append(href)
-                list_link_count.append(len(list_href))
+            if href not in dict_wikigraph:
                 wikiscrape_infobox(href)
 
     except Exception as error_message:
-        list_error_href.append(page_href)
         print()
         print("FAILED [" + page_href + "]")
         print("ERROR: " + str(error_message))
@@ -99,28 +122,4 @@ if __name__ == "__main__":
     wikiscrape_infobox("C++")
 
 
-final_list = []
-
-for href in list_wikiscrape_href:
-    if href not in (list_empty_href + list_error_href):
-        final_list.append(href)
-
-print()
-print(sorted(list_error_href))
-print()
-print("ERROR", len(list_error_href))
-print()
-print(sorted(list_empty_href))
-print()
-print("LEAF NODES", len(list_empty_href))
-print()
-print(sorted(final_list))
-print()
-print("NETWORK NODES", len(final_list))
-print()
-print(list_link_count)
-print()
-print("NETWORK LINKS", sum(list_link_count))
-print()
-print("LEAF + NETWORK LINKS", sum(list_link_count) + len(list_link_count))
 print()

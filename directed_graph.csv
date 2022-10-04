@@ -1,0 +1,1362 @@
+0,1
+*Lisp,C*
+A+,K
+A+,Q (programming language from Kx Systems)
+ABC,Python
+ALF (proof assistant),Epigram
+ALGOL,C
+ALGOL,Cedar
+ALGOL,Coral 66
+ALGOL,Dartmouth BASIC
+ALGOL,Dylan
+ALGOL,Icon
+ALGOL,JOVIAL
+ALGOL,Mesa
+ALGOL,Modula-2+
+ALGOL,Modula-3
+ALGOL,NEWP
+ALGOL,PL/I
+ALGOL,Pascal
+ALGOL,REXX
+ALGOL,Rexx
+ALGOL,Scheme
+ALGOL,Simula
+ALGOL 58,ALGOL 60
+ALGOL 58,Algol-like
+ALGOL 58,Dartmouth ALGOL 30
+ALGOL 60,ALGOL 68
+ALGOL 60,ALGOL W
+ALGOL 60,Ada
+ALGOL 60,BASIC
+ALGOL 60,Burroughs B5000
+ALGOL 60,C
+ALGOL 60,CLU
+ALGOL 60,CPL
+ALGOL 60,Combined Programming Language
+ALGOL 60,Dartmouth ALGOL 30
+ALGOL 60,Euler
+ALGOL 60,Executive Systems Problem Oriented Language
+ALGOL 60,IMP
+ALGOL 60,ISETL
+ALGOL 60,ISWIM
+ALGOL 60,Pascal
+ALGOL 60,SETL
+ALGOL 60,SETL2
+ALGOL 60,Simula
+ALGOL 60,Simula 67
+ALGOL 60,Simula67
+ALGOL 68,ABC
+ALGOL 68,Ada
+ALGOL 68,Bash (Unix shell)
+ALGOL 68,Bourne shell
+ALGOL 68,C
+ALGOL 68,C++
+ALGOL 68,KornShell
+ALGOL 68,Mary
+ALGOL 68,Python
+ALGOL 68,S3
+ALGOL 68,Seed7
+ALGOL 68,Steelman language requirements
+ALGOL 68,TMG (language)
+ALGOL W,Modula-2
+ALGOL W,Pascal
+ALGOL Y,ALGOL 68
+AMPL,Pyomo
+ANSI C,C*
+APL,A+
+APL,C++
+APL,FP
+APL,Go
+APL,J
+APL,K
+APL,LYaPAS
+APL,MATLAB
+APL,Nial
+APL,Polymorphic Programming Language
+APL,Python
+APL,Q (programming language from Kx Systems)
+APL,S
+APL,SAC
+APL,Self
+APL,Speakeasy (computational environment)
+APL,Wikipedia:Citation needed
+APL,Wolfram Language
+ARPAnet,Smalltalk
+AWK,AMPL
+AWK,ECMAScript
+AWK,EcmaScript
+AWK,JavaScript
+AWK,Korn Shell
+AWK,Lua
+AWK,Perl
+AWK,Tcl
+ActionScript,Haxe
+ActionScript,TypeScript
+Active Oberon,Go
+Actor model,Joule
+Actor model middle history,Io
+Ada,C++
+Ada,Chapel
+Ada,D
+Ada,Drago
+Ada,Eiffel
+Ada,Java
+Ada,Nim
+Ada,PL/SQL
+Ada,PL/pgSQL
+Ada,ParaSail
+Ada,Python
+Ada,Ruby
+Ada,SPARK
+Ada,SQL/PSM
+Ada,Seed7
+Ada,VHDL
+Ada,Verilog
+Agda,Idris
+AgentCubes,Scratch
+AgentSheets,AgentCubes
+AgentSheets,Etoys
+AgentSheets,Scratch
+Alef,Go
+Alef,Limbo
+Alef,Rust
+Algol-like,C
+Algol-like,PL/I
+Algol-like,Pascal
+Algol-like,Scheme
+Algol-like,Simula
+Alphard,CLU
+Apache Groovy,Kotlin
+Asm.js,WebAssembly
+Assembly language,C
+Assembly language,Speedcoding
+B,C
+B,TMG (language)
+BASIC,Bs
+BASIC,COMAL
+BASIC,Classic Visual Basic
+BASIC,GRASS
+BASIC,Perl
+BASIC,Ring
+BASIC,Ruby
+BASIC,Visual Basic (classic)
+BASIC,Visual Basic .NET
+BASIC-PLUS,Microsoft BASIC
+BBN LISP,InterLisp
+BBN LISP,Interlisp
+BCPL,B
+BCPL,C
+BCPL,C++
+BCPL,Go
+BETA,Newspeak
+Begriffsschrift,Plankalkül
+Boo,Genie
+Boo,Mirah
+Boo,Vala
+Burroughs B5000,Burroughs MCP
+Burroughs B5000,Executive Systems Problem Oriented Language
+Burroughs B5000,NEWP
+Burroughs B5000,Smalltalk
+C,AMPL
+C,AWK
+C,Alef
+C,Bs
+C,C Sharp
+C,C shell
+C,C++
+C,C--
+C,Category:C family
+C,Chapel
+C,Crystal
+C,Cyclone
+C,D
+C,D language
+C,Dart
+C,ECMAScript
+C,EcmaScript
+C,FreeBASIC
+C,Go
+C,JS++
+C,Java
+C,JavaScript
+C,Julia
+C,LPC
+C,Limbo
+C,Newsqueak
+C,Nim
+C,OCaml
+C,Objective-C
+C,Objective-C++
+C,PHP
+C,Perl
+C,Pike
+C,Processing
+C,Python
+C,Ratfor
+C,Ring
+C,Rust
+C,S
+C,SAC
+C,SISAL
+C,Seed7
+C,Vala
+C,Verilog
+C,Whiley
+C,Wolfram Language
+C,ZPL
+C,Zig
+C Sharp,Boo
+C Sharp,Chapel
+C Sharp,Clojure
+C Sharp,Cobra
+C Sharp,Crystal
+C Sharp,Cω
+C Sharp,D
+C Sharp,D language
+C Sharp,Dart
+C Sharp,F Sharp
+C Sharp,Fantom
+C Sharp,Gosu
+C Sharp,Hack
+C Sharp,Haxe
+C Sharp,J Sharp
+C Sharp,JS++
+C Sharp,Java
+C Sharp,Kotlin
+C Sharp,Nemerle
+C Sharp,Oxygene
+C Sharp,Polyphonic C sharp
+C Sharp,PowerShell
+C Sharp,Ring
+C Sharp,Rust
+C Sharp,Swift
+C Sharp,TypeScript
+C Sharp,Vala
+C Sharp,Windows PowerShell
+C*,Dataparallel-C
+C++,ATS
+C++,Ada
+C++,C Sharp
+C++,C99
+C++,Carbon
+C++,Chapel
+C++,Clojure
+C++,D
+C++,D language
+C++,Dart
+C++,Haxe
+C++,JS++
+C++,Java
+C++,Lua
+C++,MoonScript
+C++,Nim
+C++,Objective-C++
+C++,PHP
+C++,Perl
+C++,Python
+C++,Qore
+C++,Ruby
+C++,Rust
+C++,Seed7
+C++,Squirrel
+C++,SystemVerilog
+C++,Vala
+C++,Wolfram Language
+C++,Zig
+CAL,Tymshare SUPER BASIC
+CLU,Ada
+CLU,Argus
+CLU,C++
+CLU,Java
+CLU,Lua
+CLU,MoonScript
+CLU,Python
+CLU,Ruby
+CLU,Sather
+CLU,Swift
+CMS EXEC,REXX
+CMS EXEC,Rexx
+COMIT,SNOBOL
+COWSEL,POP-2
+CPL,BCPL
+CPL,C
+CPL,POP-2
+CS-1,CMS-2
+Caml,OCaml
+Cedar,Cedar
+Cedar,Java
+Cedar,Modula-2
+Cedar,PostScript
+Chef (software),PowerShell
+Chef (software),Windows PowerShell
+Classic Visual Basic,Basic4android
+Classic Visual Basic,Basic4ppc
+Classic Visual Basic,Gambas
+Classic Visual Basic,NS Basic
+Classic Visual Basic,Visual Basic .NET
+Classic Visual Basic,Windows Forms
+Classic Visual Basic,Xojo
+Clean,Haskell
+Clean,Idris
+Clojure,Elixir
+Clojure,Hy
+Clojure,LFE
+Clojure,Reia
+CoffeeScript,ECMAScript
+CoffeeScript,EcmaScript
+CoffeeScript,LiveScript
+CoffeeScript,MoonScript
+Combined Programming Language,BCPL
+Combined Programming Language,COWSEL
+Combined Programming Language,POP-2
+Common Lisp,*Lisp
+Common Lisp,AutoLisp
+Common Lisp,Cadence SKILL
+Common Lisp,Clojure
+Common Lisp,Dylan
+Common Lisp,Emacs Lisp
+Common Lisp,EuLisp
+Common Lisp,Hy
+Common Lisp,ISLISP
+Common Lisp,Julia
+Common Lisp,LFE
+Common Lisp,Moose (Perl)
+Common Lisp,R
+Common Lisp,Sather
+Common Lisp,Scala
+Common Lisp,SubL
+Common Lisp Object System,Cadence SKILL
+Common Lisp Object System,Dylan
+Common Lisp Object System,EuLisp
+Communicating Sequential Processes,Concurrent Euclid
+Communicating sequential processes,Go
+Communicating sequential processes,Limbo
+Communicating sequential processes,Newsqueak
+Communicating sequential processes,Occam
+Concurrent Euclid,Object-Oriented Turing
+Concurrent Euclid,Turing
+Concurrent Euclid,Turing Plus
+Control Language,PowerShell
+Control Language,Windows PowerShell
+Coq,Agda
+Coq,F*
+Coq,Idris
+Coq,Lean (proof assistant)
+Cray MTA,Chapel
+Cray XMT,Chapel
+Cyclone,Project Verona
+Cyclone,Rust
+Cω,C Sharp
+Cω,Joins (concurrency library)
+Cω,Language Integrated Query
+D,C Sharp
+D,C++11
+D,C++14
+D,C++17
+D,C++20
+D,Genie
+D,Go
+D,Qore
+D,Swift
+D,Vala
+D language,C Sharp
+D language,C++11
+D language,C++14
+D language,C++17
+D language,C++20
+D language,Genie
+D language,Go
+D language,Qore
+D language,Swift
+D language,Vala
+DARSIMCO,DOPE (Dartmouth Oversimplified Programming Experiment)
+DARSIMCO,Dartmouth BASIC
+DIGITAL Command Language,PowerShell
+DIGITAL Command Language,Windows PowerShell
+DOPE (Dartmouth Oversimplified Programming Experiment),Dartmouth BASIC
+Dafny,F*
+Dartmouth ALGOL 30,DOPE (Dartmouth Oversimplified Programming Experiment)
+Dartmouth ALGOL 30,Dartmouth Time Sharing System
+Dartmouth BASIC,BASIC-PLUS
+Dartmouth BASIC,List of BASIC dialects
+Dartmouth BASIC,Tymshare SUPER BASIC
+Datalog,SQL
+Delphi (Programming Language),Oxygene
+Dependent ML,ATS
+Dylan,Julia
+Dylan,Lasso
+Dylan,NewtonScript
+Dylan,Python
+Dylan,Ruby
+E,Newspeak
+E,Pony
+EISPACK,MATLAB
+EXEC 2,REXX
+EXEC 2,Rexx
+EcmaScript,Haxe
+Ed (text editor),Sed
+Eiffel,Ada
+Eiffel,Albatross
+Eiffel,C Sharp
+Eiffel,Cobra
+Eiffel,D
+Eiffel,D language
+Eiffel,Java
+Eiffel,Kotlin
+Eiffel,Racket
+Eiffel,Ruby
+Eiffel,SPARK
+Eiffel,Sather
+Eiffel,Scala
+Elixir,LFE
+Elm,Redux (JavaScript library)
+Elm,Vue.js
+Epigram,Agda
+Epigram,Idris
+Erlang,Akka (toolkit)
+Erlang,Clojure
+Erlang,Dart
+Erlang,Elixir
+Erlang,F Sharp
+Erlang,Fantom
+Erlang,Go
+Erlang,LFE
+Erlang,Opa
+Erlang,Oz
+Erlang,Reia
+Erlang,Rust
+Erlang,Scala
+Etoys,Croquet Project
+Etoys,Scratch
+EuLisp,Dylan
+EuLisp,ISLISP
+Euclid,Concurrent Euclid
+Euclid,Mesa
+Euclid,Modula-2
+Euclid,Modula-3
+Euclid,Object-Oriented Turing
+Euclid,Turing
+Euclid,Turing Plus
+Euler,Smalltalk
+Excel function,Microsoft Power Fx
+Excel macro,Microsoft Power Fx
+Executive Systems Problem Oriented Language,NEWP
+F Sharp,C Sharp
+F Sharp,Elm
+F Sharp,F*
+F Sharp,Flix
+F Sharp,Idris
+F Sharp,LiveScript
+F Sharp,Scala
+FOCAL,BASIC-PLUS
+FORTRAN,ALGOL 58
+FORTRAN,BASIC
+FORTRAN,C
+FORTRAN,CMS-2
+FORTRAN,Chapel
+FORTRAN,DOPE (Dartmouth Oversimplified Programming Experiment)
+FORTRAN,Fortress
+FORTRAN,IDL
+FORTRAN,MUMPS
+FORTRAN,PACT I
+FORTRAN,PL/I
+FORTRAN,Ratfor
+FORTRAN,Wolfram Language
+FP,FL
+FP,Haskell
+FP,Joy
+Forth,Factor
+Forth,Joy
+Forth,PostScript
+Forth,REBOL
+Forth,RPL
+Forth,Rebol
+Fortran,ALGOL 58
+Fortran,BASIC
+Fortran,C
+Fortran,CMS-2
+Fortran,Chapel
+Fortran,Coral 66
+Fortran,DOPE (Dartmouth Oversimplified Programming Experiment)
+Fortran,Dartmouth BASIC
+Fortran,Fortress
+Fortran,IDL
+Fortran,MUMPS
+Fortran,PACT I
+Fortran,PL/I
+Fortran,Ratfor
+Fortran,S
+Fortran,SISAL
+Fortran,Verilog
+Fortran 90,ALGOL 58
+Fortran 90,BASIC
+Fortran 90,C
+Fortran 90,CMS-2
+Fortran 90,Chapel
+Fortran 90,DOPE (Dartmouth Oversimplified Programming Experiment)
+Fortran 90,Fortress
+Fortran 90,IDL
+Fortran 90,MUMPS
+Fortran 90,PACT I
+Fortran 90,PL/I
+Fortran 90,Ratfor
+GW-BASIC,MSX BASIC
+GW-BASIC,QBASIC
+GW-BASIC,QBasic
+GW-BASIC,QuickBasic
+General Algebraic Modeling System,Pyomo
+Go,Crystal
+Go,Flix
+Go,Zig
+Gofer,Haskell
+Google Native Client,WebAssembly
+Gosu,Kotlin
+Groovy,Kotlin
+HTML,PHP
+Hack,PHP
+Haskell,Agda
+Haskell,"Bluespec, Inc."
+Haskell,C Sharp
+Haskell,C++11
+Haskell,Cayenne
+Haskell,Clean
+Haskell,Clojure
+Haskell,CoffeeScript
+Haskell,Concepts (C++)
+Haskell,Curry
+Haskell,Elm
+Haskell,Epigram
+Haskell,Escher
+Haskell,EuLisp
+Haskell,F Sharp
+Haskell,Flix
+Haskell,Fortress
+Haskell,Generics in Java
+Haskell,Hack
+Haskell,Idris
+Haskell,Isabelle theorem prover
+Haskell,Java
+Haskell,Language Integrated Query
+Haskell,Lean (proof assistant)
+Haskell,LiveScript
+Haskell,Mercury
+Haskell,PureScript
+Haskell,Python
+Haskell,Raku
+Haskell,Rust
+Haskell,Scala
+Haskell,Swift
+Haskell,Visual Basic .NET
+Haskell,Wikipedia:Citation needed
+Haskell,Ωmega
+Hibernate (Java),Java Persistence Query Language
+High Performance Fortran,Chapel
+Hope,Haskell
+Hope,Mercury
+Hope,Miranda
+Hope,Standard ML
+Hy,LFE
+HyperCard,Etoys
+HyperCard,Scratch
+HyperTalk,ActionScript
+HyperTalk,AppleScript
+HyperTalk,ECMAScript
+HyperTalk,EcmaScript
+HyperTalk,JavaScript
+HyperTalk,Lingo
+HyperTalk,LiveCode
+HyperTalk,SenseTalk
+HyperTalk,SuperTalk
+IBM BASICA,GW-BASIC
+IBM Cassette BASIC,GW-BASIC
+IBM Disk BASIC,GW-BASIC
+IMP,Smalltalk
+ISETL,ABC
+ISETL,ISETL
+ISETL,SETL2
+ISETL,SETLX
+ISLISP,OpenLisp
+ISWIM,Clean
+ISWIM,Haskell
+ISWIM,Lucid
+ISWIM,ML
+ISWIM,Miranda
+ISWIM,SASL
+Icon,C Sharp
+Icon,Python
+Icon,tps://github.com/proebsting/goaldi
+Id,Haskell
+Information Processing Language,Lisp
+InterLisp,EuLisp
+InterLisp,Lisp Machine Lisp
+Interlisp,Common Lisp
+Interlisp,Lisp Machine Lisp
+Interpress,PostScript
+Io,Ioke
+J,NumPy
+J,SuperCollider
+J Sharp,C Sharp
+JOSS,BASIC
+JOSS,CAL
+JOSS,FOCAL
+JOSS,MUMPS
+JOSS,TELCOMP
+JOSS,Tymshare SUPER BASIC
+JOVIAL,CMS-2
+JOVIAL,Coral 66
+JOVIAL,SYMPL
+JSON,QML
+Java,ActionScript
+Java,Ada
+Java,Apache Groovy
+Java,BeanShell
+Java,C Sharp
+Java,Ceylon
+Java,Chapel
+Java,Clojure
+Java,Cool
+Java,D
+Java,D language
+Java,Dart
+Java,E
+Java,ECMAScript
+Java,EcmaScript
+Java,Fantom
+Java,Gambas
+Java,Gosu
+Java,Groovy
+Java,Hack
+Java,Haxe
+Java,J Sharp
+Java,JS++
+Java,JavaScript
+Java,Kotlin
+Java,Mirah
+Java,NetRexx
+Java,PHP
+Java,Pizza
+Java,Python
+Java,Qore
+Java,Scala
+Java,Seed7
+Java,SystemVerilog
+Java,Tea
+Java,TypeScript
+Java,Vala
+Java,Whiley
+JavaScript,ActionScript
+JavaScript,Asm.js
+JavaScript,AssemblyScript
+JavaScript,BeanShell
+JavaScript,CoffeeScript
+JavaScript,Dart
+JavaScript,Haxe
+JavaScript,JS++
+JavaScript,Kotlin
+JavaScript,LiveScript
+JavaScript,Objective-J
+JavaScript,Opa
+JavaScript,PHP
+JavaScript,PureScript
+JavaScript,QML
+JavaScript,Raku
+JavaScript,Squirrel
+JavaScript,TypeScript
+JavaScript,Zig
+Job Control Language,Control Language
+Join calculus,Polyphonic C sharp
+Joule,E
+Joy,Cat
+Joy,Factor
+Joy,Trith
+K,Q (programming language from Kx Systems)
+K,tps://shakti.com/
+Kawa (Scheme implementation),Hy
+Kent Recursive Calculator,Haskell
+Kent Recursive Calculator,Miranda
+KornShell,PowerShell
+KornShell,Windows PowerShell
+LINPACK,MATLAB
+LLVM IR,Zig
+Le Lisp,ISLISP
+Le Lisp,OpenLisp
+LeLisp,EuLisp
+LeLisp,ISLISP
+LeLisp,OpenLisp
+Lean (proof assistant),F*
+Limbo,Go
+Limbo,Rust
+Limbo,Stackless Python
+Lisp,*Lisp
+Lisp,AgentCubes
+Lisp,AgentSheets
+Lisp,AutoLisp
+Lisp,CLIPS
+Lisp,CLU
+Lisp,COWSEL
+Lisp,Ceylon
+Lisp,Common Lisp
+Lisp,Dylan
+Lisp,Elixir
+Lisp,Erlang
+Lisp,Factor
+Lisp,Forth
+Lisp,Gambit (Scheme implementation)
+Lisp,Haskell
+Lisp,ISWIM
+Lisp,InterLisp
+Lisp,Interlisp
+Lisp,Io
+Lisp,Ioke
+Lisp,Java
+Lisp,JavaScript
+Lisp,Julia
+Lisp,Kawa (Scheme implementation)
+Lisp,Le Lisp
+Lisp,LeLisp
+Lisp,Lisp Machine Lisp
+Lisp,Logo
+Lisp,Lua
+Lisp,MDL
+Lisp,ML
+Lisp,MultiLisp
+Lisp,Nemerle
+Lisp,Nial
+Lisp,Nim
+Lisp,Nu
+Lisp,OPS5
+Lisp,OpenLisp
+Lisp,Oz
+Lisp,POP-11
+Lisp,POP-2
+Lisp,Perl
+Lisp,PostScript
+Lisp,Python
+Lisp,R
+Lisp,REBOL
+Lisp,RPL
+Lisp,Rebol
+Lisp,Ruby
+Lisp,Scala
+Lisp,Scheme
+Lisp,Smalltalk
+Lisp,Squeak
+Lisp,Swift
+Lisp,Tcl
+Lisp,Wolfram Language
+Lisp Machine Lisp,Common Lisp
+Logic Programming,Joule
+Logo,AgentCubes
+Logo,AgentSheets
+Logo,Boxer
+Logo,Etoys
+Logo,Microsoft Small Basic
+Logo,NetLogo
+Logo,REBOL
+Logo,Rebol
+Logo,Scratch
+Logo,Smalltalk
+Logo,Snap!
+Logo,Squeak
+Logo,StarLogo
+Logo,Turtlestitch
+Lua,C--
+Lua,GameMonkey Script
+Lua,Haxe
+Lua,Io
+Lua,JavaScript
+Lua,Julia
+Lua,Red
+Lua,Ring
+Lua,Ruby
+Lua,Squirrel
+Lucid,Lustre
+Lucid,PureData
+Lucid,SISAL
+MATLAB,GNU Octave
+MATLAB,INTLAB
+MATLAB,Julia
+MATLAB,Scilab
+MDL,Actor model
+MDL,Common Lisp
+MDL,Interactive fiction
+MDL,Java
+MDL,Planner
+MDL,Prolog
+MDL,Scheme
+MDL,Smalltalk
+MDL,ZIL (Zork Implementation Language)
+ML,ATS
+ML,Alice
+ML,C Sharp
+ML,C++
+ML,Caml
+ML,Ceylon
+ML,Clojure
+ML,Cool
+ML,Coq
+ML,Cyclone
+ML,Elm
+ML,Erlang
+ML,F Sharp
+ML,F*
+ML,Haskell
+ML,Idris
+ML,Kotlin
+ML,Lean (proof assistant)
+ML,Miranda
+ML,Nemerle
+ML,OCaml
+ML,Opa
+ML,ParaSail
+ML,Rust
+ML,Scala
+ML,Standard ML
+MSX BASIC,Vilnius BASIC
+MUMPS,Caché ObjectScript
+MUMPS,Profile Scripting Language
+Machine code,Speedcoding
+Maclisp,Common Lisp
+Maclisp,Emacs Lisp
+Maclisp,LFE
+Maclisp,Lisp Machine Lisp
+Maker culture,Turtlestitch
+Mathematica,Microsoft Power Fx
+Mathematical notation,APL
+Mesa,C++
+Mesa,Cedar
+Mesa,Java
+Mesa,Modula-2
+Mesa,Modula-3
+Mesa,PostScript
+Miranda,Clean
+Miranda,Haskell
+Miranda,Microsoft Power Fx
+Miranda,Orwell
+Modula,Alma-0
+Modula,Go
+Modula,Modula-2
+Modula,ParaSail
+Modula-2,Ada
+Modula-2,Alma-0
+Modula-2,C++
+Modula-2,Fortran 90
+Modula-2,Go
+Modula-2,Lua
+Modula-2,Modula-2+
+Modula-2,Modula-3
+Modula-2,MoonScript
+Modula-2,Oberon
+Modula-2,Oberon-2
+Modula-2,Object Oberon
+Modula-2,Seed7
+Modula-2,Zonnon
+Modula-2+,Modula-3
+Modula-3,C Sharp
+Modula-3,Java
+Modula-3,Nim
+Modula-3,OCaml
+Modula-3,Python
+Modula-3,Rust
+MoonScript,C--
+MoonScript,GameMonkey Script
+MoonScript,Io
+MoonScript,JavaScript
+MoonScript,Julia
+MoonScript,Red
+MoonScript,Ring
+MoonScript,Ruby
+MoonScript,Squirrel
+MultiLisp,Gambit (Scheme implementation)
+MultiLisp,Interlisp
+MultiLisp,VAX
+Natural language programming,AppleScript
+Natural language programming,HyperTalk
+NekoVM,Haxe
+Newsqueak,Alef
+Newsqueak,Go
+Newsqueak,Limbo
+Newsqueak,Rust
+NewtonScript,Io
+Nineteen Eighty-Four,Newspeak
+OCaml,ATS
+OCaml,Coq
+OCaml,Elm
+OCaml,F Sharp
+OCaml,F*
+OCaml,Flix
+OCaml,Hack
+OCaml,Haxe
+OCaml,Opa
+OCaml,Rust
+OCaml,Scala
+Oaklisp,Dylan
+Oaklisp,EuLisp
+Oaklisp,Java
+Oberon,Active Oberon
+Oberon,Component Pascal
+Oberon,Go
+Oberon,Java
+Oberon,Modula-3
+Oberon,Nim
+Oberon,Oberon
+Oberon,Oberon-2
+Oberon,Object Oberon
+Oberon,Zonnon
+Oberon-2,Active Oberon
+Oberon-2,Component Pascal
+Oberon-2,Go
+Oberon-2,Nim
+Oberon-2,Oberon
+Oberon-2,Zonnon
+ObjVlisp,EuLisp
+Object Oberon,Active Oberon
+Object Oberon,Oberon-2
+Object Pascal,C Sharp
+Object Pascal,C/AL
+Object Pascal,Genie
+Object Pascal,Java
+Object Pascal,Nim
+Object Pascal,Oxygene
+Object REXX,NetRexx
+Object-Oriented Turing,Object-Oriented Turing
+Objective-C,Cobra
+Objective-C,Groovy
+Objective-C,Java
+Objective-C,Logtalk
+Objective-C,Nu
+Objective-C,Objective-J
+Objective-C,Swift
+Objective-C,TOM (object-oriented)
+Objective-C++,Groovy
+Objective-C++,Java
+Objective-C++,Nu
+Objective-C++,Objective-J
+Objective-C++,Swift
+Objective-C++,TOM (object-oriented)
+Occam,Ease
+Occam,Go
+Occam,Python
+OpenVera,SystemVerilog
+Orwell,Haskell
+Oz,Alice
+Oz,Scala
+PHP,Active Server Pages
+PHP,Hack
+PHP,Haxe
+PHP,Jakarta Server Pages
+PL/0,MATLAB
+PL/I,B
+PL/I,C
+PL/I,CMS-2
+PL/I,Control Language
+PL/I,NetRexx
+PL/I,REXX
+PL/I,Rexx
+PL/I,TMG (language)
+PLEX,Erlang
+PSB-Prolog,XSB
+ParaSail,Nim
+Pascal,Ada
+Pascal,C/AL
+Pascal,COMAL
+Pascal,Component Pascal
+Pascal,Cool
+Pascal,Euclid
+Pascal,Go
+Pascal,HyperTalk
+Pascal,Java
+Pascal,Limbo
+Pascal,Microsoft Power Fx
+Pascal,Modula
+Pascal,Modula-2
+Pascal,Modula-2+
+Pascal,Modula-3
+Pascal,OCaml
+Pascal,Oberon
+Pascal,Oberon-2
+Pascal,Object Pascal
+Pascal,Object-Oriented Turing
+Pascal,Oxygene
+Pascal,ParaSail
+Pascal,SISAL
+Pascal,Seed7
+Pascal,Standard ML
+Pascal,Structured text
+Pascal,Turing
+Pascal,Turing Plus
+Pascal,VHDL
+Pascal,Verilog
+Pascal,Wolfram Language
+Pascal,Zonnon
+Patcher,PureData
+Perl,BeanShell
+Perl,CoffeeScript
+Perl,ECMAScript
+Perl,EcmaScript
+Perl,Groovy
+Perl,JavaScript
+Perl,Julia
+Perl,LPC
+Perl,PHP
+Perl,PowerShell
+Perl,Python
+Perl,Qore
+Perl,Raku
+Perl,Ruby
+Perl,Wikipedia:Citation needed
+Perl,Windows PowerShell
+Pizza,Generic Java
+Pizza,Scala
+Plankalkül,ALGOL 58
+Plankalkül,Heinz Rutishauser
+Plankalkül,Superplan
+Planner,Prolog
+Planner,Smalltalk
+Polymorphic Programming Language,S
+Polyphonic C sharp,Cω
+PostScript,Portable Document Format
+Prolog,Clojure
+Prolog,Constraint Handling Rules
+Prolog,Curry
+Prolog,Datalog
+Prolog,Erlang
+Prolog,KL0
+Prolog,KL1
+Prolog,Logtalk
+Prolog,Mercury
+Prolog,Oz
+Prolog,Strand
+Prolog,Visual Prolog
+Prolog,Wolfram Language
+Prolog,XSB
+Puppet (software),PowerShell
+Puppet (software),Windows PowerShell
+Python,Apache Groovy
+Python,Boo
+Python,Cobra
+Python,CoffeeScript
+Python,Crystal
+Python,D
+Python,D language
+Python,ECMAScript
+Python,EcmaScript
+Python,F Sharp
+Python,Genie
+Python,Go
+Python,Groovy
+Python,Haxe
+Python,Io
+Python,JavaScript
+Python,Julia
+Python,Kotlin
+Python,Nim
+Python,PowerShell
+Python,Pyomo
+Python,Ring
+Python,Ruby
+Python,Squirrel
+Python,Swift
+Python,Whiley
+Python,Windows PowerShell
+QBASIC,FreeBASIC
+QBASIC,QB64
+QBASIC,SmallBasic
+QBasic,FreeBASIC
+QBasic,Microsoft Small Basic
+QBasic,QB64
+QBasic,SmallBasic
+QML,Qt (framework)
+QML,Ring
+Qt (framework),QML
+QuickBASIC,FreeBASIC
+QuickBASIC,QB64
+QuickBASIC,QBASIC
+QuickBASIC,QBasic
+R,Julia
+REBOL,JSON
+REBOL,Red
+REXX,NetRexx
+REXX,Object REXX
+Racket,Clojure
+Racket,Rust
+Racket,Scheme
+Raku,Haskell
+Raku,Perl
+Rebol,JSON
+Rebol,Red
+Reia,LFE
+Reverse Polish Notation,RPL
+Rexx,NetRexx
+Rexx,Object REXX
+Ruby,Apache Groovy
+Ruby,Clojure
+Ruby,CoffeeScript
+Ruby,Crystal
+Ruby,D
+Ruby,Dart
+Ruby,Elixir
+Ruby,Fantom
+Ruby,Groovy
+Ruby,Ioke
+Ruby,Julia
+Ruby,Mirah
+Ruby,Nu
+Ruby,Raku
+Ruby,Reia
+Ruby,Ring
+Ruby,Rust
+Ruby,Swift
+Rust,Carbon
+Rust,Crystal
+Rust,Idris
+Rust,Nim
+Rust,Project Verona
+Rust,SPARK
+Rust,Swift
+Rust,Whiley
+Rust,Zig
+S,R
+SASL,Haskell
+SASL,Kent Recursive Calculator
+SASL,Miranda
+SB-Prolog,XSB
+SETL,ABC
+SETL,ISETL
+SETL,SETL2
+SETL,SETLX
+SETL2,ABC
+SETL2,ISETL
+SETL2,SETL2
+SETL2,SETLX
+SISAL,Haskell
+SISAL,SAC
+SISAL,Wikipedia:Citation needed
+SNOBOL,AWK
+SNOBOL,Bs
+SNOBOL,Icon
+SNOBOL,Lua
+SNOBOL,MoonScript
+SNOBOL,TMG (language)
+SP/k,Object-Oriented Turing
+SP/k,Turing
+SP/k,Turing Plus
+SQL,Contextual Query Language
+SQL,Java Object Oriented Querying
+SQL,Java Persistence Query Language
+SQL,Language Integrated Query
+SQL,N1QL
+SQL,PowerShell
+SQL,SPARQL
+SQL,Windows PowerShell
+Sather,Cool
+Scala,C Sharp
+Scala,Ceylon
+Scala,Chisel
+Scala,F Sharp
+Scala,Fantom
+Scala,Flix
+Scala,Fortress
+Scala,Hack
+Scala,Kotlin
+Scala,Lasso
+Scala,Red
+Scheme,Cadence SKILL
+Scheme,Clojure
+Scheme,Common Lisp
+Scheme,Dylan
+Scheme,ECMAScript
+Scheme,EcmaScript
+Scheme,EuLisp
+Scheme,Gambit (Scheme implementation)
+Scheme,Haskell
+Scheme,Hop (software)
+Scheme,ISLISP
+Scheme,JavaScript
+Scheme,Joy
+Scheme,Julia
+Scheme,K
+Scheme,Kawa (Scheme implementation)
+Scheme,LFE
+Scheme,Lua
+Scheme,MoonScript
+Scheme,MultiLisp
+Scheme,Oaklisp
+Scheme,Python
+Scheme,Q (programming language from Kx Systems)
+Scheme,R
+Scheme,Racket
+Scheme,Ruby
+Scheme,Rust
+Scheme,S
+Scheme,Sather
+Scheme,Scala
+Scheme,Snap!
+Scheme,T
+Scheme,Tea
+Schoonschip,Wolfram Language
+Scratch,Catrobat
+Scratch,MBlock
+Scratch,ScratchJr
+Scratch,Snap!
+Scratch,Turtlestitch
+Sed,AWK
+Sed,Perl
+Self,Agora
+Self,ECMAScript
+Self,EcmaScript
+Self,Factor
+Self,Io
+Self,JavaScript
+Self,Lua
+Self,Newspeak
+Self,NewtonScript
+Self,REBOL
+Self,Rebol
+Self,Squeak
+Self,Strongtalk
+Semi-Automatic Ground Environment,JOVIAL
+Simple theory of types,Escher
+Simscript,Simula
+Simscript,Simula 67
+Simscript,Simula67
+Simula,BETA
+Simula,C++
+Simula,CLU
+Simula,Eiffel
+Simula,List of object-orienteds
+Simula,Object Pascal
+Simula,Pascal
+Simula,Smalltalk
+Simula,Squeak
+Simula,Wolfram Language
+Simula 67,Ada
+Simula 67,List of object-orienteds
+Simula67,Java
+Simula67,List of object-orienteds
+Sketchpad,Smalltalk
+Sketchpad,Squeak
+Smalltalk,Ada
+Smalltalk,AgentCubes
+Smalltalk,AgentSheets
+Smalltalk,Apache Groovy
+Smalltalk,AppleScript
+Smalltalk,C++
+Smalltalk,Ceylon
+Smalltalk,Common Lisp Object System
+Smalltalk,Dart
+Smalltalk,Dylan
+Smalltalk,Erlang
+Smalltalk,Etoys
+Smalltalk,Go
+Smalltalk,Groovy
+Smalltalk,Io
+Smalltalk,Ioke
+Smalltalk,Java
+Smalltalk,Lasso
+Smalltalk,Logtalk
+Smalltalk,Newspeak
+Smalltalk,NewtonScript
+Smalltalk,Oaklisp
+Smalltalk,Object Pascal
+Smalltalk,Object REXX
+Smalltalk,Objective-C
+Smalltalk,Objective-C++
+Smalltalk,PHP
+Smalltalk,Python
+Smalltalk,Raku
+Smalltalk,Ruby
+Smalltalk,Scala
+Smalltalk,Scratch
+Smalltalk,Self
+Smalltalk,Snap!
+Smalltalk,Squeak
+Smalltalk,Strongtalk
+Smalltalk,Swift
+Smalltalk,Wolfram Language
+Snap!,Turtlestitch
+Speakeasy (computational environment),MATLAB
+Speedcoding,ALGOL 58
+Speedcoding,BASIC
+Speedcoding,C
+Speedcoding,FORTRAN
+Speedcoding,Fortran
+Speedcoding,Fortran 90
+Speedcoding,MUMPS
+Speedcoding,PACT I
+Speedcoding,PL/I
+Speedcoding,Ratfor
+Squeak,Croquet Project
+Squeak,Etoys
+Squeak,Scratch
+Standard ML,Elm
+Standard ML,EuLisp
+Standard ML,F Sharp
+Standard ML,F*
+Standard ML,Haskell
+Standard ML,OCaml
+Standard ML,Python
+Standard ML,Rust
+Standard ML,Scala
+StarLogo,Etoys
+StarLogo,NetLogo
+StarLogo,Scratch
+Strongtalk,Dart
+Strongtalk,HotSpot (virtual machine)
+Strongtalk,Java
+Superplan,ALGOL 58
+Swift,Rust
+Symbolic Manipulation Program,Wolfram Language
+T,EuLisp
+T,Joule
+T,Oaklisp
+TELCOMP,MUMPS
+TMG (language),B
+TMG (language),Donald Knuth
+TMG (language),Yacc
+Tcl,PHP
+Tcl,PowerShell
+Tcl,Tea
+Tcl,Windows PowerShell
+Tk (software),PowerShell
+Tk (software),Windows PowerShell
+Turing,Object-Oriented Turing
+Turing Plus,Object-Oriented Turing
+Tymshare SUPER BASIC,BASIC-PLUS
+TypeScript,AssemblyScript
+TypeScript,AtScript
+TypeScript,Dart
+UCSD Pascal,Java
+Unix shell,Perl
+VHDL,SystemVerilog
+Verilog,SystemVerilog
+Visual Basic,Basic4ppc
+Visual Basic,C Sharp
+Visual Basic,Gambas
+Visual Basic (classic),Basic4android
+Visual Basic (classic),Basic4ppc
+Visual Basic (classic),Gambas
+Visual Basic (classic),NS Basic
+Visual Basic (classic),Visual Basic .NET
+Visual Basic (classic),Windows Forms
+Visual Basic (classic),Xojo
+Visual Basic .NET,Microsoft Small Basic
+Visual J++,C Sharp
+Visual J++,J Sharp
+WebAssembly,AssemblyScript
+Whiley,Ceylon
+Wikipedia:Citation needed,CoffeeScript
+Wikipedia:Citation needed,LYaPAS
+Wikipedia:Citation needed,PHP
+Wolfram Language,Clojure
+Wolfram Language,Julia
+Wolfram Language,Jupyter
+Wolfram Mathematica,Julia
+XAML,QML
+XBase,Ring
+XTalk,SenseTalk
+YAML,CoffeeScript
+Z notation,Eiffel
+ZPL,Chapel
+tp://erights.org/history/original-e/index.html,E
+tps://foldoc.org/Lean,Clean
