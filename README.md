@@ -28,13 +28,13 @@ git checkout main
 
 ## Data Exploration
 
-- Data cleaning: removing `href` vestigial disambiguator string and duplicates, create two-column matrix of node-to-edge unique keys
-- Metadata: isolate key and year in JSON dictionary
-- Scatterplot of nodes, time vs incoming `influenced_by` links, probably positive Pearson correlation
-- Scatterplot of nodes, time vs outgoing `influenced` links, probably negative Pearson correlation
-- Adjacency matrix of network graph
+- Data cleaning: removing `href` vestigial disambiguator string and duplicates, export directed graph CSV of each node-to-node unique edge per row
+- Metadata: isolate in dictionaries, then dataframe, then export as CSV
+- Summary scatterplot:
 
 <img src="figures/summary_scatterplot.png" width="100%">
+
+- Adjacency matrix of network graph
 
 ## Project Pitch Slides
 
