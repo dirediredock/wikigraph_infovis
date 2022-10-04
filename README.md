@@ -25,9 +25,6 @@ git push --set-upstream origin desktop_edits
 git fetch origin main:main
 git checkout main
 ```
-<img src="figures/wikiscrape_results_1.png" width="100%">
-<img src="figures/wikiscrape_results_2.png" width="100%">
-<img src="figures/wikiscrape_results.png" width="100%">
 
 ## Data Exploration
 
@@ -38,3 +35,9 @@ git checkout main
 - Adjacency matrix of network graph
 
 <img src="figures/summary_scatterplot.png" width="100%">
+
+## Project Pitch Slides
+
+<img src="figures/wikiscrape_results_1.png" width="100%">
+<img src="figures/wikiscrape_results_2.png" width="100%">
+<img src="figures/wikiscrape_results.png" width="100%">
