@@ -28,7 +28,7 @@ git checkout main
 
 ## Data Exploration
 
-- Data cleaning: removing `href` vestigial disambiguator string and duplicates, export directed graph CSV of each node-to-node unique edge per row
+- Data cleaning: removing `href` vestigial disambiguator string and duplicates, export directed graph CSV of each node-to-node (each row is a unique graph edge)
 - Metadata: isolate in dictionaries, then dataframe, then export as CSV
 - Summary scatterplot:
 
