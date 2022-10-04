@@ -35,4 +35,4 @@ git checkout main
 - Metadata: isolate key and year in JSON dictionary
 - Scatterplot of nodes, time vs incoming `influenced_by` links, probably positive Pearson correlation
 - Scatterplot of nodes, time vs outgoing `influenced` links, probably negative Pearson correlation
-- Adjacency matrix of network
+- Adjacency matrix of network graph
