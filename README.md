@@ -34,7 +34,7 @@ git checkout main
 
 <img src="figures/summary_scatterplot.png" width="100%">
 
-- Next: text scatterplot
+- Next: text scatterplot, flip variables
 - Adjacency matrix of network graph
 
 http://profs.etsmtl.ca/mmcguffin/research/2012-mcguffin-simpleNetVis/mcguffin-2012-simpleNetVis.pdf
