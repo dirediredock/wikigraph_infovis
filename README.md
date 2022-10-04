@@ -37,6 +37,8 @@ git checkout main
 - Next: text scatterplot
 - Adjacency matrix of network graph
 
+http://profs.etsmtl.ca/mmcguffin/research/2012-mcguffin-simpleNetVis/mcguffin-2012-simpleNetVis.pdf
+
 ## Project Pitch Slides
 
 <img src="figures/wikiscrape_results_1.png" width="100%">
