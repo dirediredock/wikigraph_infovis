@@ -34,6 +34,7 @@ git checkout main
 
 <img src="figures/summary_scatterplot.png" width="100%">
 
+- Next: text scatterplot
 - Adjacency matrix of network graph
 
 ## Project Pitch Slides
