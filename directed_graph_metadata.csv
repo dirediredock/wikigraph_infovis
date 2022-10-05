@@ -1,4 +1,4 @@
-key,year,num_outgoing_links,num_incoming_links
+keys,year,num_outgoing_links,num_incoming_links
 *Lisp,1986.0,1.0,2.0
 A+,1988.0,2.0,1.0
 ABC,1987.0,1.0,4.0
