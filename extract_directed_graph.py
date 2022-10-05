@@ -1,9 +1,11 @@
 # by Matias I. Bofarull Oddo - 2022.10.03
 
 import json
+import numpy as np
 import pandas as pd
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+
 from collections import Counter
 
 
@@ -22,6 +24,34 @@ def remove_duplicates(list_rray):
         if row not in unique_rows:
             unique_rows.append(row)
     return unique_rows
+
+
+def width_constrained_text(string_input, max_characters_per_line):
+    count = 0
+    lines_array = []
+    segments = string_input.split(" ")
+    for segment in segments:
+        if len(segment) < max_characters_per_line:
+            segment_plus = ""
+            required_length = 0
+            if count == 0:
+                required_length = len(segment)
+                segment_plus = segment
+            else:
+                required_length = len(segment) + 1
+                segment_plus = " " + segment
+            if count + required_length < max_characters_per_line:
+                if count == 0:
+                    lines_array.append(segment_plus)
+                else:
+                    lines_array[-1] += segment_plus
+                count += required_length
+            else:
+                count = len(segment)
+                lines_array.append(segment)
+        else:
+            lines_array.append(segment)
+    return "\n".join(lines_array)
 
 
 with open("data_wikigraph.json") as json_file:
@@ -77,7 +107,7 @@ dict_influencees_count = Counter(list_influencee)
 df_directed_graph = pd.DataFrame(directed_graph)
 df_directed_graph.to_csv("directed_graph.csv", index=False)
 
-###############################################################################
+################################# DATA EXPORT #################################
 
 df_summary = pd.DataFrame(
     {
@@ -87,20 +117,19 @@ df_summary = pd.DataFrame(
     }
 )
 
-df_summary.index.name = "key"
-df_summary.sort_values(by=["key"], inplace=True)
+df_summary.index.name = "keys"
+df_summary.sort_values(by=["keys"], inplace=True)
 df_summary.to_csv("directed_graph_metadata.csv", index=True)
 
-###############################################################################
+#################################### PLOTS ####################################
 
 plt.rcParams.update({"font.sans-serif": "Consolas"})
 plt.rcParams.update({"font.size": 12})
 
-mpl.use("Agg")
+# Bubble scatterplot of `year` vs `influenced_by`
 
 fig = plt.figure(figsize=(9, 9))
 ax = fig.add_subplot(111)
-
 plt.scatter(
     df_summary.year,
     df_summary.num_incoming_links,
@@ -117,15 +146,102 @@ plt.scatter(
     alpha=0.7,
     edgecolors="k",
 )
-
-plt.ylabel("Number of incoming links\n")
+plt.ylabel("Number of 'Influenced by' edges\n")
 plt.xlim([1940, 2020])
 plt.xlabel(
-    "\nYear of programming language first appereance\n(size is influence, or number of outgoing links)"
+    "\nYear of programming language first appereance\n(size is number of 'Influenced' edges)"
 )
-
-plt.savefig("figures/summary_scatterplot.png", dpi=300)
-
+plt.savefig("figures/summary_A_plot.png", dpi=300)
 plt.close()
 
-###############################################################################
+# Text scatterplot of `year` vs `influenced_by`
+
+fig = plt.figure(figsize=(9, 9))
+ax = fig.add_subplot(111)
+for i, key in enumerate(df_summary.index):
+    if not np.isnan(df_summary.year[i]):
+        if not np.isnan(df_summary.num_incoming_links[i]):
+            plt.text(
+                df_summary.year[i],
+                df_summary.num_incoming_links[i],
+                width_constrained_text(key, 9),
+                fontsize=(df_summary.num_outgoing_links[i] + 4) * 1.01,
+                ha="center",
+                va="center",
+            )
+plt.scatter(
+    df_summary.year,
+    df_summary.num_incoming_links,
+    s=(df_summary.num_outgoing_links + 2) ** 2.75,
+    c="none",
+    alpha=0.25,
+    edgecolors="gray",
+    linewidth=4,
+)
+plt.ylabel("Number of 'Influenced by' edges\n")
+plt.xlim([1940, 2020])
+plt.xlabel(
+    "\nYear of programming language first appereance\n(size is number of 'Influenced' edges)"
+)
+plt.savefig("figures/summary_A_text.png", dpi=300)
+plt.close()
+
+# Bubble scatterplot of `year` vs `influenced`
+
+fig = plt.figure(figsize=(9, 9))
+ax = fig.add_subplot(111)
+plt.scatter(
+    df_summary.year,
+    df_summary.num_outgoing_links,
+    s=(df_summary.num_outgoing_links + 2) ** 2.75,
+    c=df_summary.num_outgoing_links,
+    alpha=0.7,
+    edgecolors="none",
+)
+plt.scatter(
+    df_summary.year,
+    df_summary.num_outgoing_links,
+    s=(df_summary.num_outgoing_links + 2) ** 2.75,
+    c="none",
+    alpha=0.7,
+    edgecolors="k",
+)
+plt.ylabel("Number of 'Influenced' edges\n")
+plt.xlim([1940, 2020])
+plt.xlabel(
+    "\nYear of programming language first appereance\n(size is number of 'Influenced' edges)"
+)
+plt.savefig("figures/summary_B_plot.png", dpi=300)
+plt.close()
+
+# Text scatterplot of `year` vs `influenced`
+
+fig = plt.figure(figsize=(9, 9))
+ax = fig.add_subplot(111)
+for i, key in enumerate(df_summary.index):
+    if not np.isnan(df_summary.year[i]):
+        if not np.isnan(df_summary.num_outgoing_links[i]):
+            plt.text(
+                df_summary.year[i],
+                df_summary.num_outgoing_links[i],
+                width_constrained_text(key, 9),
+                fontsize=(df_summary.num_outgoing_links[i] + 4) * 1.01,
+                ha="center",
+                va="center",
+            )
+plt.scatter(
+    df_summary.year,
+    df_summary.num_outgoing_links,
+    s=(df_summary.num_outgoing_links + 2) ** 2.75,
+    c="none",
+    alpha=0.25,
+    edgecolors="gray",
+    linewidth=4,
+)
+plt.ylabel("Number of 'Influenced' edges\n")
+plt.xlim([1940, 2020])
+plt.xlabel(
+    "\nYear of programming language first appereance\n(size is number of 'Influenced' edges)"
+)
+plt.savefig("figures/summary_B_text.png", dpi=300)
+plt.close()
