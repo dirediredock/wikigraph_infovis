@@ -32,10 +32,8 @@ git checkout main
 - Metadata: isolate in dictionaries, then dataframe, then export as CSV
 - Summary scatterplot:
 
-<img src="figures/summary_A_plot.png" width="100%">
-<img src="figures/summary_B_plot.png" width="100%">
-<img src="figures/summary_A_text.png" width="100%">
-<img src="figures/summary_B_text.png" width="100%">
+<img src="figures/summary_A_plot.png" width="50%"><img src="figures/summary_A_text.png" width="50%">
+<img src="figures/summary_B_plot.png" width="50%"><img src="figures/summary_B_text.png" width="50%">
 
 - Next: text scatterplot, flip variables
 - Adjacency matrix of network graph
