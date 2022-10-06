@@ -40,6 +40,12 @@ git checkout main
 
 http://profs.etsmtl.ca/mmcguffin/research/2012-mcguffin-simpleNetVis/mcguffin-2012-simpleNetVis.pdf
 
+- Tasky explainer, guided by "here is something that I'd like to know!"
+- Try to think about tasks
+- Domain specific first, then abstract
+
+- For this abstraction, there can be generalized - a more technique-y paper.
+
 ## Project Pitch Slides
 
 <img src="figures/wikiscrape_results_1.png" width="100%">
