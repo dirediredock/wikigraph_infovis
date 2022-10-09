@@ -58,6 +58,4 @@ Ishkur.com
 
 ## Project Pitch Slides
 
-<img src="figures/wikiscrape_results_1.png" width="100%">
 <img src="figures/wikiscrape_results_2.png" width="100%">
-<img src="figures/wikiscrape_results.png" width="100%">
