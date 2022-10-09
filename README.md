@@ -35,8 +35,7 @@ git checkout main
 <img src="figures/summary_A_plot.png" width="50%"><img src="figures/summary_A_text.png" width="50%">
 <img src="figures/summary_B_plot.png" width="50%"><img src="figures/summary_B_text.png" width="50%">
 
-- Next: text scatterplot, flip variables
-- Adjacency matrix of network graph
+<img src="figures/adjacency_forwards.png" width="33%"><img src="figures/adjacency_bothways.png" width="33%"><img src="figures/adjacency_backward.png" width="33%">
 
 http://profs.etsmtl.ca/mmcguffin/research/2012-mcguffin-simpleNetVis/mcguffin-2012-simpleNetVis.pdf
 
