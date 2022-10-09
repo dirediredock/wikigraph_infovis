@@ -54,3 +54,5 @@ http://profs.etsmtl.ca/mmcguffin/research/2012-mcguffin-simpleNetVis/mcguffin-20
 * Bewilder - class paper, cautionary tale of engineering
 * EdgeMaps - Technique paper
 * Ishkur.com
+
+- This edit was made on desktop to test if GitHub stuff is working.
