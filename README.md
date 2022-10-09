@@ -28,9 +28,10 @@ git checkout main
 
 ## Data Exploration
 
+<img src="figures/wikiscrape_results_2.png" width="100%">
+
 - Data cleaning: removing `href` vestigial disambiguator string and duplicates, export node-to-node directed graph as CSV (each row is a unique graph edge)
 - Metadata: isolate in dictionaries, then dataframe, then export as CSV
-- Summary scatterplot:
 
 <img src="figures/summary_A_plot.png" width="50%"><img src="figures/summary_A_text.png" width="50%">
 <img src="figures/summary_B_plot.png" width="50%"><img src="figures/summary_B_text.png" width="50%">
@@ -42,20 +43,14 @@ https://github.com/dirediredock/wikigraph_infovis/blob/main/figures/adjacency_ma
 http://profs.etsmtl.ca/mmcguffin/research/2012-mcguffin-simpleNetVis/mcguffin-2012-simpleNetVis.pdf
 
 - Tasky explainer, guided by "here is something that I'd like to know!"
-- Try to think about tasks
+- Try to think about tasks (highlight path, two-way influence nodes, year-sorted)
 - Domain specific first, then abstract
-
-- For this abstraction, there can be generalized - a more technique-y paper.
-
-Explorify - Spotify infovis class project (design study)
-RelEx - Research paper
-Bewilder - class paper, cautionary tale of engineering
-EdgeMaps - Technique paper
-Ishkur.com
-
-- node with mayor influence
+- For this abstraction, there can be generalized - a more technique-y paper
+- - node with mayor influence
 - trace/centrality
 
-## Project Pitch Slides
-
-<img src="figures/wikiscrape_results_2.png" width="100%">
+* Explorify - Spotify infovis class project (design study)
+* RelEx - Research paper
+* Bewilder - class paper, cautionary tale of engineering
+* EdgeMaps - Technique paper
+* Ishkur.com
