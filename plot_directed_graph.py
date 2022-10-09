@@ -1,12 +1,85 @@
-# by Matias I. Bofarull Oddo - 2022.10.03
+# by Matias I. Bofarull Oddo - 2022.10.08
 
 import json
-import numpy as np
 import pandas as pd
-import matplotlib as mpl
-import matplotlib.pyplot as plt
 
+
+def remove_duplicates(list_rray):
+    unique_rows = []
+    for row in sorted(list_rray):
+        if row not in unique_rows:
+            unique_rows.append(row)
+    return unique_rows
+
+
+with open("data_wikigraph.json") as json_file:
+    wikigraph = json.load(json_file)
+json_file.close()
+
+data_year = []
+data_graph = []
+
+for key, fields in wikigraph.items():
+
+    list_first_appeared = fields.get("first_appeared")
+    data_year.append(
+        [
+            wikigraph[key]["true_href"],
+            min(list_first_appeared, default=""),
+        ]
+    )
+    list_influenced_by = fields.get("influenced_by")
+    for influenced_by_href in list_influenced_by:
+        data_graph.append(
+            [
+                wikigraph[influenced_by_href]["true_href"],
+                wikigraph[key]["true_href"],
+            ]
+        )
+    list_influenced = fields.get("influenced")
+    for influenced_href in list_influenced:
+        data_graph.append(
+            [
+                wikigraph[key]["true_href"],
+                wikigraph[influenced_href]["true_href"],
+            ]
+        )
+
+directed_graph = remove_duplicates(data_graph)
+metadata = remove_duplicates(data_year)
+
+# SCATTERPLOTS
+
+import numpy as np
+import matplotlib.pyplot as plt
 from collections import Counter
+
+dict_year = {}
+for row in metadata:
+    if row[0] not in dict_year:
+        if type(row[1]) == type(1):
+            dict_year[row[0]] = row[1]
+
+list_influencer = []
+list_influencee = []
+
+for edge in directed_graph:
+    list_influencer.append(edge[0])
+    list_influencee.append(edge[1])
+
+dict_influencers_count = Counter(list_influencer)
+dict_influencees_count = Counter(list_influencee)
+
+df_summary = pd.DataFrame(
+    {
+        "year": pd.Series(dict_year, dtype=int),
+        "num_outgoing_links": pd.Series(dict_influencers_count),
+        "num_incoming_links": pd.Series(dict_influencees_count),
+    }
+)
+
+df_summary.index.name = "keys"
+df_summary.sort_values(by=["keys"], inplace=True)
 
 
 def strip_disambiguation(href):
@@ -16,14 +89,6 @@ def strip_disambiguation(href):
     step_4 = step_3.replace("_", " ")
     step_5 = step_4.split("#")
     return step_5[0]
-
-
-def remove_duplicates(list_rray):
-    unique_rows = []
-    for row in sorted(list_rray):
-        if row not in unique_rows:
-            unique_rows.append(row)
-    return unique_rows
 
 
 def width_constrained_text(string_input, max_characters_per_line):
@@ -53,75 +118,6 @@ def width_constrained_text(string_input, max_characters_per_line):
             lines_array.append(segment)
     return "\n".join(lines_array)
 
-
-with open("data_wikigraph.json") as json_file:
-    wikigraph = json.load(json_file)
-json_file.close()
-
-data_graph = []
-data_year = []
-
-for key, fields in wikigraph.items():
-
-    list_first_appeared = fields.get("first_appeared")
-    data_year.append(
-        [
-            strip_disambiguation(key),
-            min(list_first_appeared, default=-999),
-        ]
-    )
-    list_influenced_by = fields.get("influenced_by")
-    for influenced_by_href in list_influenced_by:
-        data_graph.append(
-            [
-                strip_disambiguation(influenced_by_href),
-                strip_disambiguation(key),
-            ]
-        )
-    list_influenced = fields.get("influenced")
-    for influenced_href in list_influenced:
-        data_graph.append(
-            [
-                strip_disambiguation(key),
-                strip_disambiguation(influenced_href),
-            ]
-        )
-
-dict_year = {}
-year_array = remove_duplicates(data_year)
-for row in year_array:
-    if row[0] not in dict_year:
-        if row[1] > 0:
-            dict_year[row[0]] = row[1]
-
-directed_graph = remove_duplicates(data_graph)
-list_influencer = []
-list_influencee = []
-for edge in directed_graph:
-    list_influencer.append(edge[0])
-    list_influencee.append(edge[1])
-
-dict_influencers_count = Counter(list_influencer)
-dict_influencees_count = Counter(list_influencee)
-
-df_directed_graph = pd.DataFrame(directed_graph)
-df_directed_graph.to_csv("directed_graph.csv", index=False)
-
-################################# DATA EXPORT #################################
-
-df_summary = pd.DataFrame(
-    {
-        "year": pd.Series(dict_year, dtype=int),
-        "num_outgoing_links": pd.Series(dict_influencers_count),
-        "num_incoming_links": pd.Series(dict_influencees_count),
-    }
-)
-
-df_summary.index.name = "keys"
-df_summary.sort_values(by=["keys"], inplace=True)
-df_summary.to_csv("directed_graph_metadata.csv", index=True)
-
-#################################### PLOTS ####################################
 
 plt.rcParams.update({"font.sans-serif": "Consolas"})
 plt.rcParams.update({"font.size": 12})
@@ -164,7 +160,7 @@ for i, key in enumerate(df_summary.index):
             plt.text(
                 df_summary.year[i],
                 df_summary.num_incoming_links[i],
-                width_constrained_text(key, 9),
+                width_constrained_text(strip_disambiguation(key), 9),
                 fontsize=(df_summary.num_outgoing_links[i] + 4) * 1.01,
                 ha="center",
                 va="center",
@@ -224,7 +220,7 @@ for i, key in enumerate(df_summary.index):
             plt.text(
                 df_summary.year[i],
                 df_summary.num_outgoing_links[i],
-                width_constrained_text(key, 9),
+                width_constrained_text(strip_disambiguation(key), 9),
                 fontsize=(df_summary.num_outgoing_links[i] + 4) * 1.01,
                 ha="center",
                 va="center",

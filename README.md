@@ -46,6 +46,15 @@ http://profs.etsmtl.ca/mmcguffin/research/2012-mcguffin-simpleNetVis/mcguffin-20
 
 - For this abstraction, there can be generalized - a more technique-y paper.
 
+Explorify - Spotify infovis class project (design study)
+RelEx - Research paper
+Bewilder - class paper, cautionary tale of engineering
+EdgeMaps - Technique paper
+Ishkur.com
+
+- node with mayor influence
+- trace/centrality
+
 ## Project Pitch Slides
 
 <img src="figures/wikiscrape_results_1.png" width="100%">
