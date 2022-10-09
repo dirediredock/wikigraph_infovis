@@ -36,8 +36,6 @@ git checkout main
 <img src="figures/summary_B_plot.png" width="50%"><img src="figures/summary_B_text.png" width="50%">
 
 <img src="figures/adjacency_forwards.png" width="100%">
-<img src="figures/adjacency_backward.png" width="100%">
-<img src="figures/adjacency_bothways.png" width="100%">
 
 https://github.com/dirediredock/wikigraph_infovis/blob/main/figures/adjacency_matrix.pdf
 
