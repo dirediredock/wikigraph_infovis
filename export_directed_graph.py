@@ -30,6 +30,8 @@ for key, fields in wikigraph.items():
     )
     list_influenced_by = fields.get("influenced_by")
     for influenced_by_href in list_influenced_by:
+        if wikigraph[influenced_by_href]["true_href"] == wikigraph[key]["true_href"]:
+            continue
         data_graph.append(
             [
                 wikigraph[influenced_by_href]["true_href"],
@@ -38,6 +40,8 @@ for key, fields in wikigraph.items():
         )
     list_influenced = fields.get("influenced")
     for influenced_href in list_influenced:
+        if wikigraph[influenced_href]["true_href"] == wikigraph[key]["true_href"]:
+            continue
         data_graph.append(
             [
                 wikigraph[key]["true_href"],
@@ -47,8 +51,8 @@ for key, fields in wikigraph.items():
 
 directed_graph = remove_duplicates(data_graph)
 df_directed_graph = pd.DataFrame(directed_graph)
-df_directed_graph.to_csv("directed_graph.csv", index=False)
+df_directed_graph.to_csv("dataCSV/directed_graph.csv", index=False)
 
 metadata = remove_duplicates(data_year)
 df_metadata = pd.DataFrame(metadata)
-df_metadata.to_csv("directed_graph_year_metadata.csv", index=False)
+df_metadata.to_csv("dataCSV/directed_graph_year_metadata.csv", index=False)
