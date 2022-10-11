@@ -10,6 +10,9 @@ rest_API = "https://en.wikipedia.org/api/rest_v1/page/html/"
 param_API = "?redirect=true&stash=false"
 url_regex = re.compile(r"\/page\/html\/(.*?)[\?|^]")
 
+with open("infoboxes.html", "w", encoding="utf-8") as erase:
+    erase.write("")
+
 dict_wikigraph = {}
 
 
@@ -23,7 +26,7 @@ def wikiscrape_infobox(page_href):
         sesh = requests.Session()
         page = sesh.get(
             rest_API + quote_plus(page_href) + param_API,
-            timeout=30,
+            timeout=100,
         )
         url_match = url_regex.search(page.url)
         true_href = unquote_plus(url_match.group(1))
@@ -38,7 +41,8 @@ def wikiscrape_infobox(page_href):
             encoding="utf-8",
         ) as file:
             try:
-                file.write("<br><h1>" + page_href + "</h1><br>")
+                file.write("<br><h1>" + page_href + "</h1>")
+                file.write("<h1><i>" + true_href + "</i></h1><br>")
                 file.write(infobox_HTML.prettify())
             except Exception as error_prettify:
                 print("ERROR prettify(): " + str(error_prettify))
