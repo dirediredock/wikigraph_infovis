@@ -1,13 +1,14 @@
-# by Matias I. Bofarull Oddo - 2022.09.26
+# by Matias I. Bofarull Oddo - 2022.10.10
 
-import os
 import re
 import requests
-from bs4 import BeautifulSoup
 
-year_regex = re.compile(r"[1|2]\d{3}")
+from bs4 import BeautifulSoup
+from urllib.parse import quote_plus, unquote_plus
 
 rest_API = "https://en.wikipedia.org/api/rest_v1/page/html/"
+param_API = "?redirect=true&stash=false"
+url_regex = re.compile(r"\/page\/html\/(.*?)[\?|^]")
 
 dict_wikigraph = {}
 
@@ -20,24 +21,27 @@ def wikiscrape_infobox(page_href):
             dict_wikigraph[page_href] = {}
 
         sesh = requests.Session()
-        page = sesh.get(rest_API + page_href, timeout=10)
+        page = sesh.get(
+            rest_API + quote_plus(page_href) + param_API,
+            timeout=30,
+        )
+        url_match = url_regex.search(page.url)
+        true_href = unquote_plus(url_match.group(1))
+
         soup = BeautifulSoup(page.content, "html.parser")
 
         infobox_HTML = soup.find("table", {"class": "infobox vevent"})
 
         with open(
-            "infoboxes/infobox_"
-            + page_href.replace("_(programming_language)", "")
-            + ".html",
-            "w",
+            "infoboxes.html",
+            "a",
             encoding="utf-8",
         ) as file:
             try:
+                file.write("<br><h1>" + page_href + "</h1><br>")
                 file.write(infobox_HTML.prettify())
             except Exception as error_prettify:
                 print("ERROR prettify(): " + str(error_prettify))
-                file.close()
-                os.remove(file.name)
 
         infobox_rows = [row.prettify() for row in soup.find_all("tr")]
 
@@ -45,7 +49,6 @@ def wikiscrape_infobox(page_href):
         data_strings = {
             "influenced_by": "",
             "influenced": "",
-            "first_appeared": "",
         }
 
         for row in infobox_rows:
@@ -55,8 +58,6 @@ def wikiscrape_infobox(page_href):
             elif "Influenced" in row:
                 data_strings["influenced"] += infobox_rows[row_index]
                 data_strings["influenced"] += infobox_rows[row_index + 1]
-            elif "appeared" in row:
-                data_strings["first_appeared"] += row
             row_index += 1
 
         data_influenced_by = BeautifulSoup(
@@ -83,30 +84,20 @@ def wikiscrape_infobox(page_href):
             )
         ]
 
-        data_first_appeared = BeautifulSoup(
-            data_strings["first_appeared"],
-            "html.parser",
-        )
-        first_appeared = []
-        for s in data_first_appeared.find_all("td", class_="infobox-data"):
-            infobox_string = s.get_text()
-            regex_match = year_regex.search(infobox_string)
-            if regex_match:
-                first_appeared.append(int(regex_match.group(0)))
-
-        list_href = sorted(set(list_influenced_by + list_influenced))
-
         if page_href in dict_wikigraph:
-            dict_wikigraph[page_href]["first_appeared"] = first_appeared
+
             dict_wikigraph[page_href]["influenced_by"] = list_influenced_by
             dict_wikigraph[page_href]["influenced"] = list_influenced
+            dict_wikigraph[page_href]["redirect_href"] = url_match.group(1)
+            dict_wikigraph[page_href]["true_href"] = true_href
+
             print()
             print(page_href)
-            print(first_appeared)
+            print(true_href)
             print(list_influenced_by)
             print(list_influenced)
-            print("Links:", len(list_href))
 
+        list_href = sorted(set(list_influenced_by + list_influenced))
         for href in list_href:
             if href not in dict_wikigraph:
                 wikiscrape_infobox(href)
@@ -119,7 +110,7 @@ def wikiscrape_infobox(page_href):
 
 if __name__ == "__main__":
 
-    wikiscrape_infobox("C++")
+    wikiscrape_infobox("Fortran")
 
 
 print()
