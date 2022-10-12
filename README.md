@@ -35,10 +35,7 @@ git checkout main
 
 <img src="figures/summary_A_plot.png" width="50%"><img src="figures/summary_A_text.png" width="50%">
 <img src="figures/summary_B_plot.png" width="50%"><img src="figures/summary_B_text.png" width="50%">
-
-<img src="figures/adjacency_forwards.png" width="100%">
-<img src="figures/wikigraph_shell_layout.png" width="100%">
-
+<img src="figures/adjacency_forwards.png" width="50%"><img src="figures/wikigraph_shell_layout.png" width="50%">
 <img src="figures/pyvis_1.png" width="50%"><img src="figures/pyvis_2.png" width="50%">
 
 https://github.com/dirediredock/wikigraph_infovis/blob/main/figures/adjacency_matrix.pdf
