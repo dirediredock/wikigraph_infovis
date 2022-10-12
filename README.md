@@ -38,9 +38,9 @@ git checkout main
 <img src="figures/adjacency_forwards.png" width="50%"><img src="figures/wikigraph_shell_layout.png" width="50%">
 <img src="figures/pyvis_1.png" width="50%"><img src="figures/pyvis_2.png" width="50%">
 
-https://github.com/dirediredock/wikigraph_infovis/blob/main/figures/adjacency_matrix.pdf
+Forced directed network drawn with `pyvis.network` with `force_atlas_2based()`, on the right with MATLAB node and neighbors highlighted.
 
-http://profs.etsmtl.ca/mmcguffin/research/2012-mcguffin-simpleNetVis/mcguffin-2012-simpleNetVis.pdf
+# Notes
 
 - Tasky explainer, guided by "here is something that I'd like to know!"
 - Try to think about tasks (highlight path, two-way influence nodes, year-sorted)
@@ -66,4 +66,3 @@ Topology tasks
 - Pick a node, highlight all the nodes just one hop away
 - Shortest path between two nodes
 - Are there bridge nodes between network clusters?
-
