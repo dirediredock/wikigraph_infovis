@@ -49,10 +49,21 @@ http://profs.etsmtl.ca/mmcguffin/research/2012-mcguffin-simpleNetVis/mcguffin-20
 - - node with mayor influence
 - trace/centrality
 
-* Explorify - Spotify infovis class project (design study)
-* RelEx - Research paper
-* Bewilder - class paper, cautionary tale of engineering
-* EdgeMaps - Technique paper
-* Ishkur.com
+What to do with nodes with missing year?
 
-- This edit was made on desktop to test if GitHub stuff is working.
+- We know the year must be larger than the smallest year of an incoming node
+- We can calculate the average difference of node and subnode year difference to calculate a buffer year addition so that
+
+- `unknown_year = min([list_incoming_node_years]) + year_buffer`
+
+Maybe I can make the length of the edge realted to time?
+
+- `edge_length = end_node_year - start_node_year`
+
+Topology tasks
+
+- Pick a node, highlight all paths incoming and outgoing from it
+- Pick a node, highlight all the nodes just one hop away
+- Shortest path between two nodes
+- Are there bridge nodes between network clusters?
+
