@@ -28,11 +28,20 @@ git checkout main
 
 ## Data Exploration
 
-<img src="figures/wikiscrape_results_2.png" width="100%">
-
+- `wikigraph_export_json.py`
+- Each wikipedia page related to a programming language has an infobox that has three fields of interest, year of language first appereance, list of langages it influenced, and list of languages it was influenced by.
+- This scraper uses Wikipedia's REST API and Python's BeautifulSoup to parse the HTML page content.
+- Scraping starts with a given href and recursively crawls all other hrefs listed in the infobox of a page, until all hrefs are exhausted.
+- When the recursive scraping is complete each unique href becomes a key in JSON file, with four subfields:
+- `first_appeared` is the year
+- `influenced` is a list of hrefs, the outgoing links in a graph
+- `influenced_by` is a list of hrefs, the incoming links in a graph
+- `redirect_href` is the encoded HTML redirect href
+- `true_href` is the page href that resolves synonyms
 - Data cleaning: removing `href` vestigial disambiguator string and duplicates, export node-to-node directed graph as CSV (each row is a unique graph edge)
 - Metadata: isolate in dictionaries, then dataframe, then export as CSV
 
+<img src="figures/wikiscrape_results_2.png" width="100%">
 <img src="figures/summary_A_plot.png" width="50%"><img src="figures/summary_A_text.png" width="50%">
 <img src="figures/summary_B_plot.png" width="50%"><img src="figures/summary_B_text.png" width="50%">
 <img src="figures/adjacency_forwards.png" width="50%"><img src="figures/wikigraph_shell_layout.png" width="50%">
