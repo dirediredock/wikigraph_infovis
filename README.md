@@ -31,6 +31,7 @@ git checkout main
 <img src="figures/wikiscrape_results_2.png" width="100%">
 
 - `wikigraph_export_json.py`
+- The core dataset `data_wikigraph.json` was succedfully scraped on October 8th 2022.
 - Each wikipedia page related to a programming language has an infobox that has three fields of interest, year of language first appereance, list of langages it influenced, and list of languages it was influenced by.
 - This scraper uses Wikipedia's REST API and Python's BeautifulSoup to parse the HTML page content.
 - Scraping starts with a given href and recursively crawls all other hrefs listed in the infobox of a page, until all hrefs are exhausted.
