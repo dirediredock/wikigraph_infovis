@@ -37,19 +37,25 @@ def wikiscrape_infobox(page_href):
             "influenced_by": "",
             "influenced": "",
             "first_appeared": "",
+            "paradigm": "",
+            "type_system": "",
         }
 
-        for row in infobox_rows:
-            if "Influenced by" in row:
+        for row in infobox_rows:  # FIX THIS ORDER
+            if "Paradigm" in row:
+                data_strings["paradigm"] += row
+            elif "appeared" in row:
+                data_strings["first_appeared"] += row
+            elif "Initial release" in row:
+                data_strings["first_appeared"] += row
+            elif "Typing discipline" in row:
+                data_strings["type_system"] += row
+            elif "Influenced by" in row:
                 data_strings["influenced_by"] += infobox_rows[row_index]
                 data_strings["influenced_by"] += infobox_rows[row_index + 1]
             elif "Influenced" in row:
                 data_strings["influenced"] += infobox_rows[row_index]
                 data_strings["influenced"] += infobox_rows[row_index + 1]
-            elif "appeared" in row:
-                data_strings["first_appeared"] += row
-            elif "Initial release" in row:
-                data_strings["first_appeared"] += row
             row_index += 1
 
         data_influenced_by = BeautifulSoup(
@@ -87,19 +93,39 @@ def wikiscrape_infobox(page_href):
             if regex_match:
                 first_appeared.append(int(regex_match.group(0)))
 
+        data_paradigm = BeautifulSoup(
+            data_strings["paradigm"],
+            "html.parser",
+        )
+        list_paradigm = []
+        for a in data_paradigm.find_all("a"):
+            list_paradigm.append(str(a.get_text()).strip().lower())
+
+        data_type_system = BeautifulSoup(
+            data_strings["type_system"],
+            "html.parser",
+        )
+        list_type_system = []
+        for a in data_type_system.find_all("a"):
+            list_type_system.append(str(a.get_text()).strip().lower())
+
         if page_href in dict_wikigraph:
             dict_wikigraph[page_href]["first_appeared"] = first_appeared
             dict_wikigraph[page_href]["influenced_by"] = list_influenced_by
             dict_wikigraph[page_href]["influenced"] = list_influenced
             dict_wikigraph[page_href]["redirect_href"] = url_match.group(1)
             dict_wikigraph[page_href]["true_href"] = true_href
+            dict_wikigraph[page_href]["paradigm"] = list_paradigm
+            dict_wikigraph[page_href]["type_system"] = list_type_system
 
-            print()
-            print(page_href)
+            # print()
+            # print(page_href)
             print(true_href)
-            print(first_appeared)
-            print(list_influenced_by)
-            print(list_influenced)
+            # print(list_paradigm)
+            # print(list_type_system)
+            # print(first_appeared)
+            # print(list_influenced_by)
+            # print(list_influenced)
 
         list_href = sorted(set(list_influenced_by + list_influenced))
         for href in list_href:
@@ -119,14 +145,3 @@ if __name__ == "__main__":
 
 with open("data_wikigraph.json", "w") as json_file:
     json.dump(dict_wikigraph, json_file, sort_keys=True, indent=4)
-
-
-# Each wikipedia page related to a programming language has an infobox that has three fields of interest, year of language first appereance, list of langages it influenced, and list of languages it was influenced by.
-# This scraper uses Wikipedia's REST API and Python's BeautifulSoup to parse the HTML page content.
-# Scraping starts with a given href and recursively crawls all other hrefs listed in the infobox of a page, until all hrefs are exhausted.
-# When the recursive scraping is complete each unique href becomes a key in JSON file, with four subfields:
-# `first_appeared` is the year
-# `influenced` is a list of hrefs, the outgoing links in a graph
-# `influenced_by` is a list of hrefs, the incoming links in a graph
-# `redirect_href` is the encoded HTML redirect href
-# `true_href` is the page href that resolves synonyms

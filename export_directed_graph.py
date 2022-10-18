@@ -18,6 +18,8 @@ json_file.close()
 
 data_year = []
 data_graph = []
+data_paradigm = []
+data_type_sys = []
 
 for key, fields in wikigraph.items():
 
@@ -26,6 +28,20 @@ for key, fields in wikigraph.items():
         [
             wikigraph[key]["true_href"],
             min(list_first_appeared, default=""),
+        ]
+    )
+    list_paradigm = fields.get("paradigm")
+    data_paradigm.append(
+        [
+            wikigraph[key]["true_href"],
+            list_paradigm,
+        ]
+    )
+    list_type_sys = fields.get("type_system")
+    data_type_sys.append(
+        [
+            wikigraph[key]["true_href"],
+            list_type_sys,
         ]
     )
     list_influenced_by = fields.get("influenced_by")
@@ -55,4 +71,12 @@ df_directed_graph.to_csv("dataCSV/directed_graph.csv", index=False)
 
 metadata = remove_duplicates(data_year)
 df_metadata = pd.DataFrame(metadata)
-df_metadata.to_csv("dataCSV/directed_graph_year_metadata.csv", index=False)
+df_metadata.to_csv("dataCSV/directed_graph_year.csv", index=False)
+
+paradigm = remove_duplicates(data_paradigm)
+df_paradigm = pd.DataFrame(paradigm)
+df_paradigm.to_csv("dataCSV/directed_graph_paradigm.csv", index=False)
+
+type_sys = remove_duplicates(data_type_sys)
+df_type_sys = pd.DataFrame(type_sys)
+df_type_sys.to_csv("dataCSV/directed_graph_type_system.csv", index=False)

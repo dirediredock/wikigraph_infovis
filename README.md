@@ -80,3 +80,13 @@ Topology tasks
 - Pick a node, highlight all the nodes just one hop away
 - Shortest path between two nodes
 - Are there bridge nodes between network clusters?
+
+- Each wikipedia page related to a programming language has an infobox that has three fields of interest, year of language first appearance, list of languages it influenced, and list of languages it was influenced by.
+- This scraper uses Wikipedia's REST API and Python's BeautifulSoup to parse the HTML page content.
+- Scraping starts with a given href and recursively crawls all other hrefs listed in the infobox of a page, until all hrefs are exhausted.
+- When the recursive scraping is complete each unique href becomes a key in JSON file, with four subfields:
+- `first_appeared` is the year
+- `influenced` is a list of hrefs, the outgoing links in a graph
+- `influenced_by` is a list of hrefs, the incoming links in a graph
+- `redirect_href` is the encoded HTML redirect href
+- `true_href` is the page href that resolves synonyms

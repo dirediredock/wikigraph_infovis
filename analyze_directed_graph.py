@@ -80,10 +80,10 @@ def bubble_scatterplot(
         edgecolors="k",
     )
     ax.set_yticks(yticks)
-    ax.set_xticks(year_ticks)
-    ax.set_xticklabels(year_labels)
     plt.ylabel("Number of " + string_v + " edges\n")
-    plt.xlim([year_ticks[0] - 10, year_ticks[-1] + 10])
+    # ax.set_xticks(year_ticks)
+    # ax.set_xticklabels(year_labels)
+    # plt.xlim([year_ticks[0] - 10, year_ticks[-1] + 10])
     plt.xlabel(
         "\nYear of programming language first appereance\n(size is number of "
         + string_h
@@ -127,10 +127,10 @@ def text_scatterplot(
         linewidth=4,
     )
     ax.set_yticks(yticks)
-    ax.set_xticks(year_ticks)
-    ax.set_xticklabels(year_labels)
     plt.ylabel("Number of " + string_v + " edges\n")
-    plt.xlim([year_ticks[0] - 10, year_ticks[-1] + 10])
+    # ax.set_xticks(year_ticks)
+    # ax.set_xticklabels(year_labels)
+    # plt.xlim([year_ticks[0] - 10, year_ticks[-1] + 10])
     plt.xlabel(
         "\nYear of programming language first appereance\n(size is number of "
         + string_h
