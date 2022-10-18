@@ -4,7 +4,7 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 
-df_data = pd.read_csv("directed_graph.csv")
+df_data = pd.read_csv("dataCSV/directed_graph.csv")
 df_fields = df_data[["0", "1"]]
 
 network = nx.Graph()

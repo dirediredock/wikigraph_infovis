@@ -3,7 +3,7 @@
 import pandas as pd
 from pyvis.network import Network
 
-dataCSV = pd.read_csv("directed_graph.csv")
+dataCSV = pd.read_csv("dataCSV/directed_graph.csv")
 
 network = Network(
     height="1000px",

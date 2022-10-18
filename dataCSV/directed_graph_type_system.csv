@@ -1,0 +1,411 @@
+0,1
+*Lisp,"['dynamic', 'strong']"
+A+_(programming_language),"['dynamic', 'strong']"
+ABC_(programming_language),"['strong', 'polymorphic']"
+AIMACO,[]
+ALF_(proof_assistant),[]
+ALGOL,"['static', 'strong']"
+ALGOL_58,"['static', 'strong']"
+ALGOL_60,"['static', 'strong']"
+ALGOL_68,"['static', 'strong', 'safe', 'structural']"
+ALGOL_W,"['static', 'strong']"
+ALGOL_Y,[]
+AMPL,[]
+APL_(programming_language),['dynamic']
+ARITH-MATIC,[]
+ARPANET,[]
+ATS_(programming_language),['static']
+AWK,[]
+ActionScript,"['strong', 'static']"
+Active_Oberon,"['strong', 'static', 'dynamic']"
+Active_Server_Pages,[]
+Actor_model,[]
+Ada_(programming_language),"['static', 'strong', 'safe', 'nominative']"
+Agda_(programming_language),"['strong', 'static', 'dependent', 'nominal', 'manifest', 'inferred']"
+AgentCubes,[]
+AgentSheets,[]
+Akka_(toolkit),[]
+Albatross_(programming_language),"['static', 'strong']"
+Alef_(programming_language),"['static', 'strong']"
+Alice_(programming_language),"['strong', 'static', 'inferred']"
+Alma-0,['static']
+Apache_Groovy,"['dynamic', 'static', 'strong', 'duck']"
+AppleScript,"['weak', 'dynamic']"
+Argus_(programming_language),[]
+Asm.js,[]
+AssemblyScript,['static']
+Assembly_language,[]
+AtScript,[]
+AutoLISP,['dynamic']
+BASIC,[]
+BASIC-PLUS,[]
+BBN_LISP,[]
+BCPL,['word']
+BETA_(programming_language),[]
+B_(programming_language),['word']
+Bash_(Unix_shell),[]
+Basic4ppc,"['static', 'weak']"
+BeanShell,"['dynamic', 'strong']"
+Begriffsschrift,[]
+Bluespec,[]
+Boo_(programming_language),"['static', 'strong', 'inferred', 'duck']"
+Bourne_shell,[]
+Bs_(programming_language),[]
+Burroughs_MCP,[]
+Burroughs_large_systems,[]
+C*,"['static', 'weak', 'manifest']"
+C++,"['static', 'nominative', 'partially inferred']"
+C--,"['static', 'weak']"
+C/AL,[]
+CAL_(programming_language),[]
+CLIPS,[]
+CLU_(programming_language),['strong']
+CMS-2,[]
+COBOL,"['weak', 'static']"
+COMAL,['strong']
+COMIT,[]
+COMTRAN,[]
+CORAL,"['static', 'strong']"
+COWSEL,[]
+CPL_(programming_language),[]
+C_(programming_language),"['static', 'weak', 'manifest', 'nominal']"
+C_Sharp_(programming_language),"['static', 'dynamic', 'strong', 'safe', 'nominative', 'partially inferred']"
+C_shell,[]
+Caché ObjectScript,[]
+Cadence_SKILL,['dynamic']
+Caml,"['inferred', 'static', 'strong']"
+Carbon_(programming_language),"['static', 'nominative', 'partially inferred']"
+Catrobat,['dynamic']
+Ceylon_(programming_language),"['static', 'strong', 'safe']"
+Chapel_(programming_language),"['static', 'inferred']"
+Chisel_(programming_language),"['inferred', 'static', 'strong', 'structural']"
+Clean_(programming_language),"['strong', 'static', 'dynamic']"
+Clojure,"['dynamic', 'strong']"
+CobolScript,[]
+Cobra_(programming_language),"['strong', 'static', 'dynamic', 'inferred']"
+CoffeeScript,['dynamic']
+Common_Lisp,"['dynamic', 'strong']"
+Common_Lisp_Object_System,[]
+Communicating_sequential_processes,[]
+Component_Pascal,"['strong', 'static']"
+Concurrent_Euclid,"['strong', 'static']"
+Constraint_Handling_Rules,[]
+Contextual_Query_Language,[]
+Control_Language,[]
+Cool_(programming_language),"['static', 'strong', 'manifest']"
+Coq,[]
+Couchbase_Server,[]
+Cray_XMT,[]
+Croquet_OS,[]
+Crystal_(programming_language),"['static', 'inferred', 'nominal', 'duck']"
+Curry_(programming_language),"['static', 'strong', 'inferred']"
+Cyc,[]
+Cyclone_(programming_language),[]
+Cω,"['static', 'strong', 'safe']"
+DARSIMCO,[]
+DIGITAL_Command_Language,[]
+DOPE,[]
+D_(programming_language),"['inferred', 'static', 'strong']"
+Dafny,"['static', 'strong', 'safe']"
+Dart_(programming_language),"['optional', 'inferred', 'static', 'strong']"
+Dartmouth_ALGOL_30,[]
+Dartmouth_BASIC,[]
+Dartmouth_Time_Sharing_System,[]
+Datalog,['weak']
+Dragon,[]
+Dylan_(programming_language),[]
+ECMAScript,"['weak', 'dynamic']"
+EGL_(programming_language),[]
+EISPACK,[]
+EXEC_2,[]
+E_(programming_language),"['strong', 'dynamic']"
+Ease_(programming_language),['strong']
+Ed_(text_editor),[]
+Eiffel_(programming_language),['static']
+Elixir_(programming_language),"['dynamic', 'strong', 'duck']"
+Elm_(programming_language),"['static', 'strong', 'inferred']"
+Emacs_Lisp,"['dynamic', 'strong']"
+Epigram_(programming_language),"['strong', 'static', 'dependent']"
+Erlang_(programming_language),"['dynamic', 'strong']"
+Escher_(programming_language),"['static', 'manifest']"
+Etoys_(programming_language),['dynamic']
+EuLisp,"['strong', 'dynamic']"
+Euclid_(programming_language),"['strong', 'static']"
+Euler_(programming_language),['dynamic']
+Executive_Systems_Problem_Oriented_Language,"['static', 'strong']"
+Extensible_Application_Markup_Language,[]
+F*_(programming_language),"['dependent', 'inferred', 'static', 'strong']"
+FACT_(computer_language),[]
+FLOW-MATIC,[]
+FL_(programming_language),['dynamic']
+FOCAL_(programming_language),[]
+FP_(programming_language),[]
+F_Sharp_(programming_language),"['static', 'strong', 'inferred']"
+Factor_(programming_language),"['strong', 'dynamic']"
+Fantom_(programming_language),"['static', 'dynamic']"
+Flix_(programming_language),"['inferred', 'static', 'strong', 'structural']"
+Forth_(programming_language),[]
+Fortran,"['strong', 'static', 'manifest']"
+Fortress_(programming_language),['static']
+FreeBASIC,['static']
+GNU_Octave,[]
+GRASS_(programming_language),[]
+GT.M,[]
+GW-BASIC,[]
+Gambas,[]
+Gambit_(Scheme_implementation),"['dynamic', 'latent', 'strong']"
+General_Algebraic_Modeling_System,[]
+Generics_in_Java,[]
+Genie_(programming_language),"['static', 'strong']"
+Go_(programming_language),"['inferred', 'static', 'strong', 'structural', 'nominal']"
+Google_Native_Client,[]
+Gosu_(programming_language),['static']
+HTML,[]
+Hack_(programming_language),"['static', 'dynamic', 'weak', 'gradual']"
+Haskell,"['inferred', 'static', 'strong']"
+Haxe,"['static', 'dynamic', 'nominal']"
+Hibernate_(framework),[]
+High_Performance_Fortran,[]
+Hop_(software),"['strong', 'dynamic']"
+Hope_(programming_language),[]
+HotSpot_(virtual_machine),[]
+Hy,[]
+HyperCard,[]
+HyperTalk,[]
+IBM_BASIC,[]
+IDL_(programming_language),['dynamic']
+IMP_(programming_language),"['static', 'strong']"
+ISLISP,[]
+ISWIM,[]
+Icon_(programming_language),['dynamic']
+Id_(programming_language),[]
+Idris_(programming_language),[]
+Information_Processing_Language,[]
+Interlisp,[]
+Io_(programming_language),"['dynamic', 'strong']"
+Ioke_(programming_language),[]
+Isabelle_(proof_assistant),[]
+JOSS,[]
+JOVIAL,"['static', 'strong', 'safe', 'structural']"
+JS++,"['gradual', 'static', 'dynamic']"
+JSON,[]
+J_(programming_language),['dynamic']
+Jakarta_Persistence_Query_Language,[]
+Jakarta_Server_Pages,[]
+JavaScript,"['dynamic', 'weak', 'duck']"
+Java_(programming_language),"['static', 'strong', 'safe', 'nominative', 'manifest']"
+Joule_(programming_language),[]
+Joy_(programming_language),"['strong', 'dynamic']"
+Julia_(programming_language),"['dynamic', 'strong', 'nominative', 'parametric', 'optional']"
+K_(programming_language),"['dynamic', 'strong']"
+Kawa_(Scheme_implementation),[]
+Kent_Recursive_Calculator,[]
+KornShell,[]
+Kotlin_(programming_language),"['inferred', 'static', 'strong']"
+LFE_(programming_language),"['dynamic', 'strong']"
+LINPACK,[]
+LLVM,[]
+LPMud,[]
+LYaPAS,['dynamic']
+Language_Integrated_Query,[]
+Laning_and_Zierler_system,[]
+Lasso_(programming_language),"['dynamic', 'nominative', 'duck']"
+Le_Lisp,[]
+Lean_(proof_assistant),"['static', 'strong', 'inferred']"
+Lennart_Augustsson,[]
+Limbo_(programming_language),['strong']
+Lingo_(programming_language),[]
+Lisp_(programming_language),"['dynamic', 'strong']"
+Lisp_Machine_Lisp,[]
+LiveCode,[]
+LiveScript,"['dynamic', 'weak']"
+Logo_(programming_language),['dynamic']
+Logtalk,[]
+Lua_(programming_language),"['dynamic', 'strong', 'duck']"
+Lucid_(programming_language),[]
+Lustre_(programming_language),[]
+MATH-MATIC,[]
+MATLAB,"['dynamic', 'weak']"
+MDL_(programming_language),"['dynamic', 'strong']"
+ML_(programming_language),"['inferred', 'static', 'strong']"
+MSX_BASIC,[]
+MUMPS,[]
+Maclisp,"['dynamic', 'strong']"
+Mary_(programming_language),"['static', 'strong']"
+Max_(software),[]
+Mercury_(programming_language),"['strong', 'static', 'polymorphic']"
+Mesa_(programming_language),[]
+Microsoft_BASIC,[]
+Microsoft_Excel,[]
+Microsoft_Power_Fx,['strong']
+Microsoft_Small_Basic,"['dynamic', 'weak']"
+Mirah_(programming_language),"['static', 'dynamic', 'strong', 'inferred']"
+Miranda_(programming_language),"['strong', 'static']"
+Modula,"['static', 'strong', 'safe']"
+Modula-2,"['static', 'strong', 'safe']"
+Modula-2+,"['static', 'strong', 'safe']"
+Modula-3,"['strong', 'static', 'safe', 'unsafe']"
+MultiLisp,"['dynamic', 'latent', 'strong']"
+NEWP,"['static', 'strong']"
+NekoVM,['dynamic']
+Nemerle,"['inferred', 'nominal', 'static', 'strong']"
+NetLogo,"['dynamic', 'strong']"
+NetRexx,"['static', 'strong', 'safe', 'dynamic', 'string']"
+Newspeak_(programming_language),"['dynamic', 'optional']"
+Newsqueak,['strong']
+NewtonScript,['dynamic']
+Nial,['dynamic']
+Nim_(programming_language),"['static', 'strong', 'inferred', 'structural']"
+Nu_(programming_language),[]
+NumPy,[]
+OCaml,"['inferred', 'static', 'strong', 'structural']"
+OPS,[]
+Oaklisp,"['dynamic', 'strong']"
+Oberon-2,"['strong', 'static', 'dynamic']"
+Oberon_(programming_language),"['strong', 'static', 'dynamic']"
+ObjVlisp,[]
+Object-Oriented_Turing,"['static', 'manifest']"
+Object_Oberon,"['strong', 'static', 'dynamic']"
+Object_Pascal,"['static and dynamic', 'rtti', 'strong', 'safe']"
+Object_REXX,[]
+Objective-C,"['static', 'dynamic', 'weak']"
+Objective-J,[]
+Occam_(programming_language),[]
+Opa_(programming_language),"['static', 'strong', 'inferred']"
+OpenLisp,"['dynamic', 'strong']"
+Orwell_(programming_language),[]
+Oxygene_(programming_language),[]
+Oz_(programming_language),['dynamic']
+PACT_(compiler),[]
+PDF,[]
+PHP,"['dynamic', 'weak', 'gradual']"
+PL-6,[]
+PL/0,[]
+PL/8,[]
+PL/I,[]
+PL/M,[]
+PL/SQL,[]
+PL/pgSQL,[]
+PLEX_(programming_language),[]
+POP-2,[]
+ParaSail_(programming_language),"['strong', 'static']"
+Pascal_(programming_language),"['static', 'strong', 'safe']"
+Perl,[]
+Pizza_(programming_language),[]
+Plankalkül,[]
+Planner_(programming_language),[]
+Polymorphic_(programming_language),[]
+Polyphonic_C_Sharp,"['static', 'strong', 'safe', 'nominative']"
+PostScript,[]
+PowerShell,"['strong', 'safe', 'implicit', 'dynamic']"
+Processing,[]
+Profile_Scripting_Language,[]
+Programming_Language_for_Business,"['strong', 'static']"
+Progress_Chef,[]
+Project_Jupyter,[]
+Project_Verona,[]
+Prolog,[]
+Puppet_(software),[]
+PureScript,"['inferred', 'static', 'strong']"
+Pure_Data,[]
+Pyomo,[]
+Python_(programming_language),"['duck', 'dynamic', 'strong typing', 'gradual']"
+QB64,[]
+QBasic,[]
+QML,"['dynamic', 'strong']"
+Q_(programming_language_from_Kx_Systems),"['dynamic', 'strong']"
+Qore_(programming_language),[]
+Qt_(software),[]
+QuickBASIC,[]
+RPL_(programming_language),[]
+R_(programming_language),['dynamic']
+Racket_(programming_language),"['dynamic', 'static', 'strong']"
+Raku_(programming_language),"['dynamic', 'gradual']"
+Ratfor,[]
+Rebol,"['dynamic', 'strong']"
+Red_(programming_language),[]
+Redux_(JavaScript_library),[]
+Reverse_Polish_notation,[]
+Rexx,[]
+Ring_(programming_language),['dynamic']
+Ruby_(programming_language),"['duck', 'dynamic', 'strong']"
+Rust_(programming_language),"['affine', 'inferred', 'nominal', 'static', 'strong']"
+S3_(programming_language),[]
+SAC_(programming_language),"['static', 'strong']"
+SASL_(programming_language),[]
+SETL,['dynamic']
+SETLX,[]
+SIMSCRIPT,[]
+SISAL,"['static', 'strong']"
+SNOBOL,[]
+SP/k,"['static', 'strong']"
+SPARK_(programming_language),"['static', 'strong', 'safe', 'nominative']"
+SPARQL,[]
+SQL,"['static', 'strong']"
+SQL/PSM,[]
+SUPER_BASIC,[]
+SYMPL,[]
+S_(programming_language),"['dynamic', 'strong']"
+Sather,"['static', 'strong']"
+Scala_(programming_language),"['inferred', 'static', 'strong', 'structural']"
+Scheme_(programming_language),"['dynamic', 'latent', 'strong']"
+Schoonschip,[]
+Scratch_(programming_language),[]
+Sed,[]
+Seed7,"['static', 'strong', 'safe', 'nominative', 'manifest']"
+Self_(programming_language),"['dynamic', 'strong']"
+SenseTalk,['duck']
+Simula,"['static', 'nominative']"
+Sketchpad,[]
+Smalltalk,"['strong', 'dynamic']"
+Snap!_(programming_language),['dynamic']
+Speakeasy_(computational_environment),['dynamic']
+Speedcoding,"['strong', 'static', 'manifest']"
+Squeak,['dynamic']
+Squirrel_(programming_language),['dynamic']
+Stackless_Python,[]
+Standard_ML,"['inferred', 'static', 'strong']"
+StarLogo,"['duck', 'dynamic', 'strong']"
+Steelman_language_requirements,[]
+Strand_(programming_language),[]
+Strongtalk,"['dynamic', 'static']"
+Structured_text,[]
+SuperCollider,[]
+Superplan,[]
+Swift_(programming_language),"['static', 'strong', 'inferred']"
+SystemVerilog,"['static', 'weak']"
+TELCOMP,[]
+TMG_(language),[]
+T_(programming_language),"['dynamic', 'strong']"
+Tcl,"['dynamic typing', 'string']"
+Tea_(programming_language),[]
+Tk_(software),[]
+Turing_(programming_language),"['static', 'manifest']"
+Turing_Plus,"['static', 'manifest']"
+Turtlestitch,['dynamic']
+TypeScript,"['duck', 'gradual', 'structural']"
+UCSD_Pascal,[]
+UNICODE_(programming_language),[]
+Unix_shell,[]
+VAX,[]
+VHDL,['strong']
+Vala_(programming_language),"['static', 'strong', 'inferred', 'structural']"
+Verilog,"['static', 'weak']"
+Vilnius_BASIC,[]
+Visual_Basic_(classic),"['static', 'strong']"
+Visual_Basic_.NET,"['static', 'both strong and weak', 'both safe and unsafe', 'nominative']"
+Visual_J++,[]
+Visual_J_Sharp,[]
+Visual_Prolog,"['static', 'strong', 'inferred']"
+Vue.js,[]
+WebAssembly,[]
+Whiley_(programming_language),"['strong', 'safe', 'structural', 'flow-sensitive']"
+Windows_Forms,[]
+Wolfram_Language,"['dynamic', 'strong']"
+Wolfram_Mathematica,[]
+XSB,[]
+Xojo,[]
+YAML,[]
+ZPL_(programming_language),[]
+Zig_(programming_language),"['static', 'strong', 'inferred', 'structural', 'generic']"
+Zonnon,"['strong', 'static', 'dynamic']"

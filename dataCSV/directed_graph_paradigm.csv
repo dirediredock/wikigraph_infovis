@@ -1,0 +1,411 @@
+0,1
+*Lisp,"['multi-paradigm', 'functional', 'procedural', 'reflective', 'meta', 'parallel']"
+A+_(programming_language),['array']
+ABC_(programming_language),"['multi-paradigm', 'imperative', 'procedural', 'structured']"
+AIMACO,['imperative']
+ALF_(proof_assistant),[]
+ALGOL,"['procedural', 'imperative', 'structured']"
+ALGOL_58,"['procedural', 'imperative', 'structured']"
+ALGOL_60,"['procedural', 'imperative', 'structured']"
+ALGOL_68,"['multi-paradigm', 'concurrent', 'imperative']"
+ALGOL_W,"['multi-paradigm', 'procedural', 'imperative', 'structured']"
+ALGOL_Y,[]
+AMPL,"['multi-paradigm', 'declarative', 'imperative']"
+APL_(programming_language),"['array', 'functional', 'structured', 'modular']"
+ARITH-MATIC,[]
+ARPANET,[]
+ATS_(programming_language),"['multi-paradigm', 'functional', 'imperative']"
+AWK,"['scripting', 'procedural', 'data-driven']"
+ActionScript,"['multi-paradigm', 'object-oriented', 'prototype-based', 'functional', 'imperative', 'scripting']"
+Active_Oberon,"['imperative', 'structured', 'modular', 'object-oriented', 'concurrent']"
+Active_Server_Pages,[]
+Actor_model,[]
+Ada_(programming_language),"['multi-paradigm', 'structured', 'imperative', 'object-oriented', 'aspect-oriented', 'concurrent', 'array', 'distributed', 'generic', 'procedural', 'meta']"
+Agda_(programming_language),['functional']
+AgentCubes,"['object-oriented', 'educational']"
+AgentSheets,"['object-oriented', 'educational']"
+Akka_(toolkit),[]
+Albatross_(programming_language),[]
+Alef_(programming_language),"['compiled', 'concurrent', 'structured']"
+Alice_(programming_language),"['multi-paradigm', 'imperative', 'functional', 'distributed', 'concurrent']"
+Alma-0,"['multi-paradigm', 'constraint', 'imperative', 'logic']"
+Apache_Groovy,"['multi-paradigm', 'object-oriented', 'imperative', 'functional', 'aspect-oriented', 'scripting']"
+AppleScript,"['natural language programming', 'scripting']"
+Argus_(programming_language),[]
+Asm.js,[]
+AssemblyScript,"['multi-paradigm', 'functional', 'generic', 'imperative', 'object-oriented']"
+Assembly_language,"['imperative', 'unstructured', 'metaprogramming', 'macros', 'object-oriented', 'structured', 'actor-based', 'array', 'aspect-oriented', 'class-based', 'concatenative', 'concurrent', 'dataflow', 'declarative', 'differentiable', 'domain-specific', 'dynamic', 'esoteric', 'event-driven', 'extensible', 'functional', 'imperative', 'logic', 'macro', 'metaprogramming', 'object-based', 'object-oriented', 'pipeline', 'procedural', 'prototype-based', 'reflective', 'rule-based', 'scripting', 'stack-oriented', 'synchronous', 'tactile', 'template']"
+AtScript,[]
+AutoLISP,[]
+BASIC,"['non-structured', 'procedural', 'object-oriented']"
+BASIC-PLUS,['imperative']
+BBN_LISP,[]
+BCPL,"['procedural', 'imperative', 'structured']"
+BETA_(programming_language),['object-oriented']
+B_(programming_language),[]
+Bash_(Unix_shell),[]
+Basic4ppc,"['procedural programming', 'event-driven']"
+BeanShell,"['object-oriented', 'scripting']"
+Begriffsschrift,[]
+Bluespec,[]
+Boo_(programming_language),['object oriented']
+Bourne_shell,[]
+Bs_(programming_language),[]
+Burroughs_MCP,[]
+Burroughs_large_systems,"['multi-paradigm', 'procedural', 'imperative', 'structured']"
+C*,"['multi-paradigm', 'object-oriented', 'imperative', 'parallel']"
+C++,"['multi-paradigm', 'procedural', 'imperative', 'functional', 'object-oriented', 'generic', 'modular']"
+C--,['imperative']
+C/AL,['imperative']
+CAL_(programming_language),[]
+CLIPS,['expert systems']
+CLU_(programming_language),"['multi-paradigm', 'object-oriented', 'procedural']"
+CMS-2,['imperative']
+COBOL,"['procedural', 'imperative', 'object-oriented', 'generic']"
+COMAL,['structured']
+COMIT,[]
+COMTRAN,[]
+CORAL,"['procedural', 'imperative', 'structured']"
+COWSEL,[]
+CPL_(programming_language),"['multi-paradigm', 'procedural', 'imperative', 'structured', 'functional']"
+C_(programming_language),"['multi-paradigm', 'imperative', 'procedural', 'structured']"
+C_Sharp_(programming_language),"['multi-paradigm', 'structured', 'imperative', 'object-oriented', 'event-driven', 'task-driven', 'functional', 'generic', 'reflective', 'concurrent']"
+C_shell,[]
+Caché ObjectScript,[]
+Cadence_SKILL,"['functional', 'oop']"
+Caml,"['multi-paradigm', 'functional', 'imperative']"
+Carbon_(programming_language),[]
+Catrobat,[]
+Ceylon_(programming_language),['object-oriented']
+Chapel_(programming_language),"['object-oriented', 'partitioned global address space', 'parallel programming']"
+Chisel_(programming_language),"['multi-paradigm', 'concurrent', 'functional', 'imperative', 'object-oriented']"
+Clean_(programming_language),['functional']
+Clojure,"['multi-paradigm', 'agent-oriented', 'concurrent', 'functional', 'logic', 'macro', 'pipeline']"
+CobolScript,[]
+Cobra_(programming_language),"['multi-paradigm', 'object-oriented']"
+CoffeeScript,"['multi-paradigm', 'prototype-based', 'functional', 'imperative', 'scripting']"
+Common_Lisp,"['multi-paradigm', 'procedural', 'functional', 'object-oriented', 'meta', 'reflective', 'generic']"
+Common_Lisp_Object_System,"['common lisp the language', 'paradigms of ai programming', 'the art of the metaobject protocol', 'on lisp', 'practical common lisp', 'object-oriented programming in common lisp']"
+Communicating_sequential_processes,[]
+Component_Pascal,"['imperative', 'structured', 'modular', 'object-oriented']"
+Concurrent_Euclid,"['multi-paradigm', 'structured', 'imperative', 'functional']"
+Constraint_Handling_Rules,"['constraint logic', 'declarative']"
+Contextual_Query_Language,[]
+Control_Language,['imperative']
+Cool_(programming_language),['object-oriented']
+Coq,[]
+Couchbase_Server,[]
+Cray_XMT,[]
+Croquet_OS,[]
+Crystal_(programming_language),"['multi-paradigm', 'object-oriented', 'concurrent']"
+Curry_(programming_language),"['functional', 'logic']"
+Cyc,[]
+Cyclone_(programming_language),[]
+Cω,"['multi-paradigm', 'structured', 'imperative', 'object-oriented', 'event-driven', 'functional']"
+DARSIMCO,['procedural']
+DIGITAL_Command_Language,['imperative']
+DOPE,['procedural']
+D_(programming_language),"['multi-paradigm', 'functional', 'imperative', 'object-oriented']"
+Dafny,"['imperative', 'functional']"
+Dart_(programming_language),"['multi-paradigm', 'functional', 'imperative', 'object-oriented', 'reflective']"
+Dartmouth_ALGOL_30,"['multi-paradigm', 'procedural', 'imperative', 'structured']"
+Dartmouth_BASIC,['imperative']
+Dartmouth_Time_Sharing_System,[]
+Datalog,"['logic', 'declarative']"
+Dragon,['object-oriented']
+Dylan_(programming_language),"['multi-paradigm', 'functional', 'object-oriented']"
+ECMAScript,"['multi-paradigm', 'prototype-based', 'functional', 'imperative']"
+EGL_(programming_language),[]
+EISPACK,[]
+EXEC_2,[]
+E_(programming_language),"['multi-paradigm', 'object-oriented', 'message passing']"
+Ease_(programming_language),"['concurrent', 'communicating sequential processes']"
+Ed_(text_editor),[]
+Eiffel_(programming_language),"['object-oriented', 'class-based', 'generic', 'concurrent']"
+Elixir_(programming_language),"['multi-paradigm', 'functional', 'concurrent', 'distributed', 'process-oriented']"
+Elm_(programming_language),['functional']
+Emacs_Lisp,"['functional', 'meta', 'reflective']"
+Epigram_(programming_language),['functional']
+Erlang_(programming_language),"['multi-paradigm', 'concurrent', 'functional']"
+Escher_(programming_language),"['declarative', 'functional', 'logic']"
+Etoys_(programming_language),"['object-oriented', 'prototype-based', 'educational']"
+EuLisp,"['multi-paradigm', 'functional', 'procedural', 'meta', 'object-oriented']"
+Euclid_(programming_language),"['multi-paradigm', 'structured', 'imperative', 'functional']"
+Euler_(programming_language),"['multi-paradigm', 'procedural', 'imperative', 'structured']"
+Executive_Systems_Problem_Oriented_Language,"['multi-paradigm', 'procedural', 'imperative', 'structured']"
+Extensible_Application_Markup_Language,[]
+F*_(programming_language),"['multi-paradigm', 'functional', 'imperative']"
+FACT_(computer_language),"['procedural', 'imperative']"
+FLOW-MATIC,['imperative']
+FL_(programming_language),"['function-level', 'functional']"
+FOCAL_(programming_language),['imperative']
+FP_(programming_language),['function-level']
+F_Sharp_(programming_language),"['multi-paradigm', 'functional', 'imperative', 'object-oriented', 'agent-oriented', 'metaprogramming', 'reflective', 'concurrent']"
+Factor_(programming_language),"['multi-paradigm', 'functional', 'concatenative', 'stack-oriented', 'object-oriented']"
+Fantom_(programming_language),['multi-paradigm']
+Flix_(programming_language),"['multi-paradigm', 'functional', 'imperative', 'logic']"
+Forth_(programming_language),"['procedural', 'stack-oriented', 'reflective', 'concatenative']"
+Fortran,"['multi-paradigm', 'structured', 'imperative', 'procedural', 'object-oriented', 'generic', 'array']"
+Fortress_(programming_language),[]
+FreeBASIC,"['procedural', 'object-oriented']"
+GNU_Octave,[]
+GRASS_(programming_language),[]
+GT.M,[]
+GW-BASIC,[]
+Gambas,[]
+Gambit_(Scheme_implementation),"['multi-paradigm', 'functional', 'imperative', 'meta']"
+General_Algebraic_Modeling_System,[]
+Generics_in_Java,[]
+Genie_(programming_language),"['multi-paradigm', 'imperative', 'structured', 'object-oriented']"
+Go_(programming_language),"['multi-paradigm', 'concurrent', 'imperative', 'object-oriented']"
+Google_Native_Client,[]
+Gosu_(programming_language),[]
+HTML,[]
+Hack_(programming_language),[]
+Haskell,['purely functional']
+Haxe,['multi-paradigm']
+Hibernate_(framework),[]
+High_Performance_Fortran,[]
+Hop_(software),['multi-paradigm']
+Hope_(programming_language),[]
+HotSpot_(virtual_machine),[]
+Hy,"['multi-paradigm', 'procedural', 'functional', 'object-oriented', 'meta', 'reflective', 'generic']"
+HyperCard,[]
+HyperTalk,"['procedural', 'event-driven']"
+IBM_BASIC,[]
+IDL_(programming_language),['vector-oriented programming']
+IMP_(programming_language),"['multi-paradigm', 'procedural', 'imperative', 'structured', 'extensible']"
+ISLISP,"['multi-paradigm', 'functional', 'procedural', 'object-oriented', 'reflective', 'meta']"
+ISWIM,"['imperative', 'functional']"
+Icon_(programming_language),"['multi-paradigm', 'structured']"
+Id_(programming_language),[]
+Idris_(programming_language),['functional']
+Information_Processing_Language,['assembly']
+Interlisp,"['multiparadigm', 'functional', 'procedural', 'object-oriented', 'declarative', 'reflective', 'meta']"
+Io_(programming_language),"['object-oriented', 'prototype-based']"
+Ioke_(programming_language),[]
+Isabelle_(proof_assistant),[]
+JOSS,"['non-structured', 'procedural', 'imperative']"
+JOVIAL,"['procedural', 'imperative', 'structured']"
+JS++,"['imperative', 'structured', 'object-oriented', 'functional', 'generic']"
+JSON,[]
+J_(programming_language),[]
+Jakarta_Persistence_Query_Language,[]
+Jakarta_Server_Pages,[]
+JavaScript,"['multi-paradigm', 'event-driven', 'functional', 'imperative', 'procedural', 'object-oriented programming']"
+Java_(programming_language),"['multi-paradigm', 'generic', 'object-oriented', 'class-based', 'functional', 'imperative', 'reflective', 'concurrent']"
+Joule_(programming_language),"['multi-paradigm', 'object-oriented', 'distributed', 'dataflow']"
+Joy_(programming_language),"['multi-paradigm', 'functional', 'concatenative', 'stack-oriented']"
+Julia_(programming_language),"['multi-paradigm', 'multiple dispatch', 'procedural', 'functional', 'meta', 'multistaged']"
+K_(programming_language),"['array', 'functional']"
+Kawa_(Scheme_implementation),[]
+Kent_Recursive_Calculator,['functional']
+KornShell,[]
+Kotlin_(programming_language),"['multi-paradigm', 'object-oriented', 'functional', 'imperative', 'block structured', 'declarative', 'generic', 'reflective', 'concurrent']"
+LFE_(programming_language),"['multi-paradigm', 'concurrent', 'functional']"
+LINPACK,[]
+LLVM,[]
+LPMud,[]
+LYaPAS,"['array', 'functional', 'structured', 'modular']"
+Language_Integrated_Query,[]
+Laning_and_Zierler_system,[]
+Lasso_(programming_language),"['multi-paradigm', 'structured', 'object-oriented', 'multi-dis', 'imperative', 'procedural', 'concurrent', 'exp-oriented', 'meta', 'reflective']"
+Le_Lisp,"['multi-paradigm', 'functional', 'procedural', 'reflective', 'meta']"
+Lean_(proof_assistant),"['functional programming', 'imperative programming']"
+Lennart_Augustsson,[]
+Limbo_(programming_language),['concurrent']
+Lingo_(programming_language),['object-oriented']
+Lisp_(programming_language),"['multi-paradigm', 'functional', 'procedural', 'reflective', 'meta']"
+Lisp_Machine_Lisp,[]
+LiveCode,['object-oriented']
+LiveScript,"['multi-paradigm', 'functional', 'object-oriented']"
+Logo_(programming_language),"['multi-paradigm', 'functional', 'educational', 'procedural', 'reflective']"
+Logtalk,"['logic programming', 'object-oriented programming', 'prototype-based programming']"
+Lua_(programming_language),"['multi-paradigm', 'scripting', 'imperative', 'procedural', 'prototype-based', 'object-oriented', 'functional', 'meta', 'reflective']"
+Lucid_(programming_language),['dataflow']
+Lustre_(programming_language),[]
+MATH-MATIC,['imperative']
+MATLAB,"['multi-paradigm', 'functional', 'imperative', 'procedural', 'object-oriented', 'array']"
+MDL_(programming_language),"['multi-paradigm', 'functional', 'procedural', 'reflective', 'meta']"
+ML_(programming_language),"['multi-paradigm', 'functional', 'generic', 'imperative']"
+MSX_BASIC,['imperative']
+MUMPS,"['imperative', 'procedural']"
+Maclisp,"['multi-paradigm', 'functional', 'procedural', 'reflective', 'meta']"
+Mary_(programming_language),['imperative']
+Max_(software),"['visual', 'flow-based', 'declarative', 'domain-specific']"
+Mercury_(programming_language),"['logic', 'functional', 'object-oriented']"
+Mesa_(programming_language),[]
+Microsoft_BASIC,[]
+Microsoft_Excel,[]
+Microsoft_Power_Fx,"['low-code', 'general-purpose', 'imperative', 'strongly typed', 'declarative', 'functional']"
+Microsoft_Small_Basic,"['structured', 'imperative', 'object-oriented']"
+Mirah_(programming_language),"['object-oriented', 'imperative']"
+Miranda_(programming_language),"['lazy', 'functional', 'declarative']"
+Modula,"['imperative', 'structured', 'modular']"
+Modula-2,"['imperative', 'structured', 'modular', 'data and procedure hiding', 'concurrent']"
+Modula-2+,"['imperative', 'structured', 'modular', 'data and procedure hiding', 'concurrent']"
+Modula-3,"['imperative', 'structured', 'procedural', 'modular', 'concurrent']"
+MultiLisp,"['multi-paradigm', 'functional', 'imperative', 'concurrent', 'meta']"
+NEWP,"['multi-paradigm', 'procedural', 'imperative', 'structured']"
+NekoVM,"['object-oriented', 'structured', 'prototype-based', 'scripting']"
+Nemerle,"['multi-paradigm', 'aspect-oriented', 'event-driven', 'functional', 'generic', 'imperative', 'meta', 'object-oriented', 'reflective']"
+NetLogo,"['multi-paradigm', 'educational', 'procedural', 'agent-based', 'simulation']"
+NetRexx,"['multiparadigm', 'object-oriented', 'procedural', 'structured']"
+Newspeak_(programming_language),"['object-oriented', 'functional']"
+Newsqueak,['concurrent']
+NewtonScript,"['prototype', 'object-oriented']"
+Nial,['array']
+Nim_(programming_language),"['multi-paradigm', 'compiled', 'concurrent', 'procedural', 'imperative', 'functional', 'object-oriented', 'meta']"
+Nu_(programming_language),"['structured', 'imperative', 'functional', 'object-oriented']"
+NumPy,[]
+OCaml,"['multi-paradigm', 'functional', 'imperative', 'modular', 'object-oriented']"
+OPS,[]
+Oaklisp,"['multi-paradigm', 'object-oriented', 'functional', 'procedural']"
+Oberon-2,"['imperative', 'structured', 'modular', 'object-oriented']"
+Oberon_(programming_language),"['imperative', 'structured', 'modular', 'object-oriented']"
+ObjVlisp,[]
+Object-Oriented_Turing,"['multi-paradigm', 'object-oriented', 'procedural', 'concurrent']"
+Object_Oberon,"['imperative', 'structured', 'modular', 'object-oriented']"
+Object_Pascal,"['imperative', 'structured', 'object-oriented', 'functional', 'component-based', 'event-driven', 'generic']"
+Object_REXX,"['object-oriented', 'class-based']"
+Objective-C,[]
+Objective-J,[]
+Occam_(programming_language),"['imperative', 'procedural', 'concurrent']"
+Opa_(programming_language),"['multi-paradigm', 'functional', 'imperative']"
+OpenLisp,"['multi-paradigm', 'functional', 'procedural', 'object-oriented', 'reflective', 'meta']"
+Orwell_(programming_language),"['lazy', 'functional']"
+Oxygene_(programming_language),[]
+Oz_(programming_language),"['multi-paradigm', 'logic', 'functional', 'imperative', 'object-oriented', 'constraint', 'distributed', 'concurrent']"
+PACT_(compiler),[]
+PDF,[]
+PHP,"['multi-paradigm', 'imperative', 'functional', 'object-oriented', 'procedural', 'reflective']"
+PL-6,[]
+PL/0,[]
+PL/8,[]
+PL/I,"['procedural', 'imperative', 'structured']"
+PL/M,[]
+PL/SQL,[]
+PL/pgSQL,[]
+PLEX_(programming_language),"['procedural', 'imperative']"
+POP-2,[]
+ParaSail_(programming_language),"['compiled', 'concurrent', 'imperative', 'structured', 'object-oriented']"
+Pascal_(programming_language),"['imperative', 'structured']"
+Perl,"['multi-paradigm', 'functional', 'imperative', 'object-oriented', 'class-based', 'reflective']"
+Pizza_(programming_language),"['generics', 'algebraic types']"
+Plankalkül,['procedural']
+Planner_(programming_language),"['multi-paradigm', 'logic', 'procedural']"
+Polymorphic_(programming_language),[]
+Polyphonic_C_Sharp,"['multi-paradigm', 'structured', 'imperative', 'object-oriented', 'event-driven', 'functional', 'concurrent']"
+PostScript,"['multi-paradigm', 'stack-based', 'procedural']"
+PowerShell,"['imperative', 'pipeline', 'object-oriented', 'functional', 'reflective']"
+Processing,['object-oriented']
+Profile_Scripting_Language,['procedural']
+Programming_Language_for_Business,"['procedural', 'imperative']"
+Progress_Chef,[]
+Project_Jupyter,[]
+Project_Verona,[]
+Prolog,['logic']
+Puppet_(software),[]
+PureScript,['functional']
+Pure_Data,['dataflow']
+Pyomo,[]
+Python_(programming_language),"['multi-paradigm', 'object-oriented', 'procedural', 'imperative', 'functional', 'structured', 'reflective']"
+QB64,[]
+QBasic,['procedural']
+QML,"['multi-paradigm', 'declarative', 'reactive', 'scripting']"
+Q_(programming_language_from_Kx_Systems),"['array', 'functional']"
+Qore_(programming_language),"['multi-paradigm', 'thread safe', 'parallel', 'shared memory', 'functional', 'imperative', 'object-oriented', 'class-based', 'procedural', 'functional']"
+Qt_(software),[]
+QuickBASIC,[]
+RPL_(programming_language),"['stack', 'structured', 'concatenative', 'object-oriented']"
+R_(programming_language),"['multi-paradigm', 'procedural', 'object-oriented', 'functional', 'reflective', 'imperative', 'array']"
+Racket_(programming_language),"['multi-paradigm', 'functional', 'imperative', 'logic', 'meta', 'modular', 'object-oriented', 'reflective']"
+Raku_(programming_language),['multi-paradigm']
+Ratfor,[]
+Rebol,"['language oriented programming', 'data exchange', 'functional', 'prototype-based', 'imperative']"
+Red_(programming_language),"['imperative', 'functional', 'symbolic']"
+Redux_(JavaScript_library),[]
+Reverse_Polish_notation,[]
+Rexx,"['multiparadigm', 'procedural', 'structured']"
+Ring_(programming_language),"['multi-paradigm', 'object-oriented', 'imperative', 'functional', 'procedural', 'reflective', 'declarative', 'natural language programming']"
+Ruby_(programming_language),"['multi-paradigm', 'functional', 'imperative', 'object-oriented', 'reflective']"
+Rust_(programming_language),"['concurrent', 'functional', 'generic', 'imperative', 'structured']"
+S3_(programming_language),"['structured', 'imperative']"
+SAC_(programming_language),"['array', 'functional']"
+SASL_(programming_language),['functional']
+SETL,"['multi-paradigm', 'imperative', 'procedural', 'structured', 'object-oriented']"
+SETLX,[]
+SIMSCRIPT,[]
+SISAL,"['functional', 'dataflow']"
+SNOBOL,"['imperative', 'procedural', 'unstructured']"
+SP/k,"['structured', 'imperative']"
+SPARK_(programming_language),['multi-paradigm']
+SPARQL,['query language']
+SQL,['declarative']
+SQL/PSM,['multi-paradigm']
+SUPER_BASIC,[]
+SYMPL,[]
+S_(programming_language),"['multi-paradigm', 'imperative', 'object oriented']"
+Sather,"['object-oriented', 'functional']"
+Scala_(programming_language),"['multi-paradigm', 'concurrent', 'functional', 'imperative', 'object-oriented']"
+Scheme_(programming_language),"['multi-paradigm', 'functional', 'imperative', 'meta']"
+Schoonschip,[]
+Scratch_(programming_language),"['event-driven', 'block-based']"
+Sed,['scripting']
+Seed7,"['multi-paradigm', 'extensible', 'object-oriented', 'imperative', 'structured', 'generic', 'reflective']"
+Self_(programming_language),"['object-oriented', 'prototype-based']"
+SenseTalk,"['people oriented programming', 'multi-paradigm', 'object-oriented']"
+Simula,"['multi-paradigm', 'procedural', 'imperative', 'structured', 'object-oriented']"
+Sketchpad,[]
+Smalltalk,['object-oriented']
+Snap!_(programming_language),"['object-oriented', 'educational', 'event-driven']"
+Speakeasy_(computational_environment),['imperative']
+Speedcoding,"['structured', 'generic']"
+Squeak,['object-oriented']
+Squirrel_(programming_language),"['multi-paradigm', 'scripting', 'imperative', 'functional', 'object-oriented']"
+Stackless_Python,[]
+Standard_ML,"['multi-paradigm', 'functional', 'imperative', 'modular']"
+StarLogo,"['multi-paradigm', 'educational', 'procedural', 'agent-based', 'simulation']"
+Steelman_language_requirements,[]
+Strand_(programming_language),[]
+Strongtalk,['object-oriented']
+Structured_text,[]
+SuperCollider,[]
+Superplan,[]
+Swift_(programming_language),"['multi-paradigm', 'protocol-oriented', 'object-oriented', 'functional', 'imperative', 'block structured', 'declarative', 'concurrent']"
+SystemVerilog,"['structured', 'object-oriented']"
+TELCOMP,[]
+TMG_(language),[]
+T_(programming_language),"['multi-paradigm', 'object-oriented', 'imperative', 'functional', 'meta']"
+Tcl,"['multi-paradigm', 'event-driven', 'functional', 'imperative', 'object-oriented']"
+Tea_(programming_language),"['multi-paradigm', 'functional', 'object-oriented', 'class-based']"
+Tk_(software),[]
+Turing_(programming_language),"['multi-paradigm', 'object-oriented', 'procedural']"
+Turing_Plus,"['multi-paradigm', 'object-oriented', 'procedural', 'concurrent']"
+Turtlestitch,"['object-oriented', 'educational', 'event-driven']"
+TypeScript,"['multi-paradigm', 'functional', 'generic', 'imperative', 'object-oriented']"
+UCSD_Pascal,[]
+UNICODE_(programming_language),[]
+Unix_shell,[]
+VAX,[]
+VHDL,"['concurrent', 'reactive', 'dataflow']"
+Vala_(programming_language),"['multi-paradigm', 'imperative', 'structured', 'object-oriented']"
+Verilog,['structured']
+Vilnius_BASIC,"['imperative', 'algorithmic']"
+Visual_Basic_(classic),"['object-based', 'event-driven']"
+Visual_Basic_.NET,"['multi-paradigm', 'structured', 'imperative', 'object-oriented', 'declarative', 'generic', 'reflective', 'event-driven']"
+Visual_J++,[]
+Visual_J_Sharp,"['object-oriented', 'structured', 'imperative']"
+Visual_Prolog,"['multi-paradigm', 'logical', 'functional', 'object-oriented', 'imperative']"
+Vue.js,[]
+WebAssembly,"['structured', 'stack machine']"
+Whiley_(programming_language),"['imperative', 'functional']"
+Windows_Forms,[]
+Wolfram_Language,"['multi-paradigm', 'term-rewriting', 'functional', 'procedural', 'array']"
+Wolfram_Mathematica,[]
+XSB,['logic programming']
+Xojo,[]
+YAML,[]
+ZPL_(programming_language),['array']
+Zig_(programming_language),"['multi-paradigm', 'imperative', 'concurrent', 'procedural', 'functional']"
+Zonnon,"['imperative', 'structured', 'modular', 'object-oriented']"
